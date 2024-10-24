@@ -14,7 +14,12 @@ export default {
     fontFamily: {
       poppins: ['Poppins', 'sans-serif'],
     },
+
     extend: {
+      fontSize: {
+        //38px em rem = 2.375rem
+        'largetitle': '2.375rem',
+      },
 
     },
   },
