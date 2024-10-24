@@ -28,7 +28,7 @@ const Submissions = () => {
   }, []); // Executa o efeito apenas uma vez, ao montar o componente
 
   return (
-    <div className="flex flex-col max-h-[802px] max-w-7xl mx-auto px-4">
+    <div className="flex flex-col max-h-[802px] max-w-7xl mx-auto px-10">
       <div className="mb-7 flex flex-col">
         <div className="self-center flex flex-row items-baseline gap-4 relative">
           <h1 className="self-center md:text-largetitle sm:text-3xl text-2xl font-semibold mb-5">
