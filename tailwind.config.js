@@ -11,6 +11,9 @@ export default {
       tBlue: '#51ACD9',
       tPink: '#E43B64'
     },
+    fontFamily: {
+      poppins: ['Poppins', 'sans-serif'],
+    },
 
     extend: {
       fontSize: {
