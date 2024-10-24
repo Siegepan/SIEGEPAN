@@ -11,7 +11,12 @@ export default {
       tBlue: '#51ACD9',
       tPink: '#E43B64'
     },
+
     extend: {
+      fontSize: {
+        //38px em rem = 2.375rem
+        'largetitle': '2.375rem',
+      },
 
     },
   },

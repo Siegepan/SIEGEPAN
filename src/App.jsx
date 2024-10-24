@@ -1,6 +1,6 @@
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 import "./App.css";
-import Timeline from "./components/TimeLine";
+import Submissions from "./components/Submissions";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
         //<DotLottieReact src="/src/assets/lotties/oDS3JIG0kc.json" loop autoplay />
       }
 
-      <Timeline />
+      <Submissions />
     </>
   );
 }
