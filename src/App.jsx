@@ -1,9 +1,10 @@
 import "./App.css";
+import CustomFooter from "./components/FooterComponent/CustomFooter";
 
 function App() {
   return (
     <>
-      <h1 className="text-black">Hello World</h1>
+      <CustomFooter />
     </>
   );
 }

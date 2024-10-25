@@ -1,0 +1,21 @@
+
+
+
+.StyledFooter {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+    align-items: start;
+}
+
+.FooterCols {
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+}
+
+.FooterSectionTitle {
+    align-items: start;
+    display: flex;
+    
+}
