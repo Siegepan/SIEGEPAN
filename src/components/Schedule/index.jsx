@@ -195,6 +195,14 @@ export const Schedule = () => {
           <ScheduleCard schedule={schedule} key={schedule.title} />
         ))}
       </div>
+
+      <a
+        href=""
+        className="flex flex-row gap-2 px-8 py-3 rounded-[15px] mt-14 bg-gradient-to-r from-[#51ACD999] via-[#8644F099] to-[#E43B6499] text-bg"
+      >
+        <p className="text-xl">Ver cronograma completo</p>
+        <img src="/src/assets/images/prime_arrow-right-white.svg" alt="" />
+      </a>
     </div>
   );
 };
