@@ -1,19 +1,13 @@
 import React from "react";
+import planta3 from "../assets/planta1-azul.svg"; // Importação da planta3
+import planta2 from "../assets/planta2-azul.svg"; // Importação da planta2
 
 const NAO_PERCA_A_CHANCE_DE_PARTICIPAR = () => {
   return (
     <section className="relative max-w-2xl mx-auto p-6 border border-pink-300 rounded-lg text-center bg-white shadow-md">
       {/* Elemento decorativo no canto superior esquerdo */}
       <div className="absolute -top-4 -left-4 text-pink-300">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          className="w-8 h-8"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
-        </svg>
+       <img src={planta2} alt="" />
       </div>
 
       {/* Conteúdo principal */}
@@ -38,15 +32,7 @@ const NAO_PERCA_A_CHANCE_DE_PARTICIPAR = () => {
 
       {/* Elemento decorativo no canto inferior direito */}
       <div className="absolute -bottom-4 -right-4 text-pink-300">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          className="w-8 h-8"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
-        </svg>
+        <img src={planta3} alt="" />
       </div>
     </section>
   );
