@@ -2,3 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.hover-bar::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 4px;
+  border-radius: 0 0 25px 25px;
+  background: linear-gradient(to right, #2baeff, #037cfe);
+  transition: width 0.3s linear;
+  width: 0;
+}
+
+.hover-bar:hover::after {
+  width: 100%;
+}
