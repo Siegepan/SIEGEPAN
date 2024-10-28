@@ -5,15 +5,14 @@ import logo from "../assets/logo.svg"; // Importação do SVG como imagem
 import planta3 from "../assets/planta2-roxa.svg"; // Importação da planta3
 import planta2 from "../assets/planta3-roxa.svg";
 
-
 const HEROPAGE2 = () => {
     return (
-      <div className="relative flex items-center justify-center w-full h-screen bg-gray-100">
-        {/* Imagem da planta3 no lado direito */}
-        <img src={planta3} alt="Planta 3" className="absolute right-0 bottom-1/4 w-32 h-auto" />
+      <section className="relative flex items-center justify-center w-full h-screen bg-white">
+        {/* Imagem da planta2 no lado esquerdo */}
+        <img src={planta2} alt="Planta 2" className="absolute left-0 top-1/4 w-32 h-auto" />
   
-        {/* Conteúdo principal */}
-        <div className="text-center bg-white p-10 rounded-lg shadow-lg max-w-xl mx-auto">
+        {/* Conteúdo principal centralizado */}
+        <div className="text-center">
           <img src={logo} alt="Logo" className="mx-auto mb-4 w-12 h-12" />
           <h1 className="text-3xl font-bold mb-2">SIEGEPAN</h1>
           <p className="text-lg">
@@ -31,10 +30,9 @@ const HEROPAGE2 = () => {
           </button>
         </div>
   
-        {/* Imagem da planta2 no lado esquerdo */}
-        <img src={planta2} alt="Planta 2" className="absolute left-0 top-1/4 w-32 h-auto" />
-      </div>
+        {/* Imagem da planta3 no lado direito */}
+        <img src={planta3} alt="Planta 3" className="absolute right-0 bottom-1/4 w-32 h-auto" />
+      </section>
     );
   };
-  
 export default HEROPAGE2;
