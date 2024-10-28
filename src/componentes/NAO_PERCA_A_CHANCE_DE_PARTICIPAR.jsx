@@ -4,18 +4,18 @@ import planta2 from "../assets/planta-2(Magenta).svg"; // Importação da planta
 
 const NAO_PERCA_A_CHANCE_DE_PARTICIPAR = () => {
   return (
-    <section className="relative max-w-2xl mx-auto p-6 border border-pink-400 rounded-lg bg-white shadow-md">
+    <section className="relative w-[calc(60%+20px)] mx-auto p-6 border border-pink-400 rounded-lg bg-white shadow-md">
       {/* Elemento decorativo no canto superior esquerdo */}
       <div className="absolute -top-4 -left-2 text-pink-300">
         <img src={planta2} alt="Planta 1 magenta" className="w-20 h-20 opacity-50" />
       </div>
 
       {/* Conteúdo principal com botão ao lado */}
-      <div className="flex items-center justify-start mb-4 space-x-8">
+      <div className="flex flex-col md:flex-row items-center justify-start mb-4 space-x-8 ml-5">
         <h2 className="text-2xl font-semibold text-black text-left">
           Não perca a chance de{" "}
           <br />
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#51ACD9] via-[#8644F0] to-[#E43B64]">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#51ACD9] via-[#8644F0] to-[#E43B64] opacity-50">
             participar
           </span>
           !
