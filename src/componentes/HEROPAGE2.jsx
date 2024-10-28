@@ -12,7 +12,7 @@ const HEROPAGE2 = () => {
       <img
         src={planta2}
         alt="Planta 2"
-        className="absolute left-0 bottom-1 h-auto w-20 md:w-24 lg:w-28 opacity-50"
+        className="absolute left-0 bottom-1 h-auto w-20 md:w-24 lg:w-28 opacity-50 "
       />
 
       {/* Conteúdo principal centralizado */}
