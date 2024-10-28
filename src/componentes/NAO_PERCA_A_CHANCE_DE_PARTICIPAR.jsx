@@ -22,8 +22,10 @@ const NAO_PERCA_A_CHANCE_DE_PARTICIPAR = () => {
         </h2>
         <a
           href="#"
-          className="opacity-50 ml-auto px-6 py-2 text-white font-semibold rounded-lg bg-gradient-to-r from-[#51ACD9] via-[#8644F0] to-[#E43B64] hover:from-blue-500 hover:to-pink-500 transition"
-        >
+          className=" flex flex-col md:flex-row opacity-50 text-white font-semibold 
+          rounded-lg bg-gradient-to-r from-[#51ACD9] via-[#8644F0] to-[#E43B64] 
+          hover:from-blue-500 hover:to-pink-500 m-3 py-2 px-3"
+>
           Inscreva-se →
         </a>
       </div>
