@@ -1,7 +1,7 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
+import App from "./pages/App";
 import "./index.css";
-import Hero from "./components/Hero/index.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
