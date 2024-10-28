@@ -1,5 +1,5 @@
 import React from "react";
-import planta3 from "../assets/planta1-azul.svg"; // Importação da planta3
+import planta3 from "../assets/planta-1(Magenta).svg"; // Importação da planta3
 import planta2 from "../assets/planta2-azul.svg"; // Importação da planta2
 
 const NAO_PERCA_A_CHANCE_DE_PARTICIPAR = () => {
