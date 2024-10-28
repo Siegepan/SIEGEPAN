@@ -22,9 +22,9 @@ const HEROPAGE2 = () => {
         <p className="text-lg">
           1º Simpósio de Enfermagem:
           <br /> <span> Novas Formas de Cuidar em Saúde no{" "} </span> 
-          <span className="bg-blue-500 text-white font-semibold px-2 py-1 rounded mb-2">Gestar</span><br />
-<span className="bg-blue-500 text-white font-semibold px-2 py-1 rounded mr-2">Parir</span> e{" "}
-<span className="bg-blue-500 text-white font-semibold px-2 py-1 rounded mb-2">Nascer</span>
+          <span className="bg-blue-500 text-white font-semibold px-2 rounded mb-100">Gestar</span><br />
+<span className="bg-blue-500 text-white font-semibold px-1 rounded m-2">Parir</span> e{" "}
+<span className="bg-blue-500 text-white font-semibold px-1 rounded mt-3">Nascer</span>
 
         </p>
         <div className="mt-4 text-gray-600">
