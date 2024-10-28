@@ -20,10 +20,12 @@ const HEROPAGE2 = () => {
         <img src={logo} alt="Logo" className="mx-auto mb-4 w-12 h-12" />
         <h1 className="text-3xl font-bold mb-2">SIEGEPAN</h1>
         <p className="text-lg">
-          1º Simpósio de Enfermagem: Novas Formas de Cuidar em Saúde no{" "}
-          <span className="bg-blue-500 text-white font-semibold px-2 py-1 rounded">Gestar</span>,{" "}
-          <span className="bg-blue-500 text-white font-semibold px-2 py-1 rounded">Parir</span> e{" "}
-          <span className="bg-blue-500 text-white font-semibold px-2 py-1 rounded">Nascer</span>
+          1º Simpósio de Enfermagem:
+          <br /> <span> Novas Formas de Cuidar em Saúde no{" "} </span> 
+          <span className="bg-blue-500 text-white font-semibold px-2 py-1 rounded mb-2">Gestar</span><br />
+<span className="bg-blue-500 text-white font-semibold px-2 py-1 rounded mr-2">Parir</span> e{" "}
+<span className="bg-blue-500 text-white font-semibold px-2 py-1 rounded mb-2">Nascer</span>
+
         </p>
         <div className="mt-4 text-gray-600">
           <p>📅 De 5 a 7 de Dezembro</p>
