@@ -11,13 +11,13 @@ Button.propTypes = {
 
 function Hero() {
   return (
-    <div className="flex flex-col md:flex-row justify-between bg-primary p-4 md:p-8">
+    <div className="flex flex-col md:flex-row justify-between bg-primary ">
       <div className="hidden md:flex flex-col justify-end">
         <img src="/src/assets/images/planta-branca-esquerda.svg" alt="" className="w-full h-auto" />
       </div>
       <div className="flex flex-col md:flex-row items-center justify-center font-poppins md:gap-8">
-        <div className="flex flex-col  items-center w-full md:w-3/5 px-4 md:px-0">
-          <div className="flex flex-wrap gap-2 mb-6">
+        <div className="flex flex-col  items-center md:items-start w-full md:w-3/5 px-4 md:px-0">
+          <div className="flex flex-nowrap gap-2 mb-6">
             <div className="flex gap-2 rounded-full bg-black/15 px-3 py-1">
               <img src="/src/assets/images/calender.svg" alt="" className="w-4 h-4" />
               <p className="text-bg text-sm md:text-base">5 a 7 de Dezembro</p>
@@ -41,10 +41,10 @@ function Hero() {
           </a>
         </div>
         <DotLottieReact
-          src="/src/assets/lotties/oDS3JIG0kc.json"
+          src="/src/assets/lotties/oYHH6fgXrF.json"
           loop
           autoplay
-          className="w-48 h-48 md:w-72 md:h-72 lg:w-[550px] lg:h-[550px] mt-6 md:mt-0"
+          className="w-60 h-60 md:w-72 md:h-72 lg:w-[550px] lg:h-[550px] mt-6 md:mt-0"
         />
       </div>
       <div className="hidden md:flex flex-col justify-start">
