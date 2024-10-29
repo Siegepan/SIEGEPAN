@@ -16,8 +16,8 @@ function Hero() {
         <img src="/src/assets/images/planta-branca-esquerda.svg" alt="" />
       </div>
       <div className="flex flex-col md:flex-row items-center justify-center font-poppins  ">
-        <div className=" items-start flex flex-col">
-          <div className="flex gap-2 mb-3">
+        <div className=" items-start size-3/5 flex flex-col">
+          <div className="flex gap-2 mb-10">
             <div className="flex gap-2  rounded-[100px]  bg-black/15 px-3 py-1  ">
               <img src="/src/assets/images/calender.svg" alt="" />
               <p className="text-bg">5 a 7 de Dezembro</p>
