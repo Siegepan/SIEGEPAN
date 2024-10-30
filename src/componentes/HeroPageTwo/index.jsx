@@ -1,11 +1,10 @@
 // src/componentes/HEROPAGE2.jsx
 
-import React from "react";
-import logo from "../assets/logo.svg"; // Importação do logo
-import planta3 from "../assets/planta2-roxa.svg"; // Importação da planta3
-import planta2 from "../assets/planta3-roxa.svg"; // Importação da planta2
+import logo from "/src/assets/logo.svg"; // Importação do logo
+import planta3 from "/src/assets/planta2-roxa.svg"; // Importação da planta3
+import planta2 from "/src/assets/planta3-roxa.svg"; // Importação da planta2
 
-const HEROPAGE2 = () => {
+const HeroPageTwo = () => {
   return (
     <section className="relative flex items-center justify-center w-full bg-white overflow-hidden">
       {/* Imagem da planta2 no lado esquerdo, mais acima */}
@@ -21,11 +20,18 @@ const HEROPAGE2 = () => {
         <h1 className="text-3xl font-bold mb-2">SIEGEPAN</h1>
         <p className="text-lg">
           1º Simpósio de Enfermagem:
-          <br /> <span> Novas Formas de Cuidar em Saúde no{" "} </span> 
-          <span className="bg-blue-500 text-white font-semibold px-2 rounded mb-100">Gestar</span><br />
-<span className="bg-blue-500 text-white font-semibold px-1 rounded m-2">Parir</span> e{" "}
-<span className="bg-blue-500 text-white font-semibold px-1 rounded mt-3">Nascer</span>
-
+          <br /> <span> Novas Formas de Cuidar em Saúde no </span>
+          <span className="bg-blue-500 text-white font-semibold px-2 rounded mb-100">
+            Gestar
+          </span>
+          <br />
+          <span className="bg-blue-500 text-white font-semibold px-1 rounded m-2">
+            Parir
+          </span>{" "}
+          e{" "}
+          <span className="bg-blue-500 text-white font-semibold px-1 rounded mt-3">
+            Nascer
+          </span>
         </p>
         <div className="mt-4 text-gray-600">
           <p>📅 De 5 a 7 de Dezembro</p>
@@ -46,4 +52,4 @@ const HEROPAGE2 = () => {
   );
 };
 
-export default HEROPAGE2;
+export default HeroPageTwo;

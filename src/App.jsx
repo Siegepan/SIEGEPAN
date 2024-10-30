@@ -1,13 +1,12 @@
 import "./App.css";
-import SIEGEPAN from "./componentes/HEROPAGE2";
-import NAO_PERCA_A_CHANCE_DE_PARTICIPAR from "./componentes/NAO_PERCA_A_CHANCE_DE_PARTICIPAR";
+import Participar from "./componentes/Participar";
+import HeroPageTwo from "./componentes/HeroPageTwo";
 function App() {
   return (
     <>
-      
       <div>
-      <SIEGEPAN />
-      <NAO_PERCA_A_CHANCE_DE_PARTICIPAR/>
+        <HeroPageTwo />
+        <Participar />
       </div>
     </>
   );
