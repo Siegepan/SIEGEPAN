@@ -1,19 +1,32 @@
+// SwiperComponent.js
+import { A11y, Pagination, Scrollbar } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import SwiperSlideComponent from "../SwiperSlideComponent";
 
-const Swiper = ({ children }) => {
+const SwiperComponent = () => {
   return (
     <Swiper
-      spaceBetween={50}
+      modules={[A11y, Pagination, Scrollbar]}
+      spaceBetween={325}
       slidesPerView={3}
-      onSlideChange={() => console.log("slide change")}
+      centeredSlides={true}
+      pagination={{ clickable: true }}
       onSwiper={(swiper) => console.log(swiper)}
+      onSlideChange={() => console.log("slide change")}
     >
-      <SwiperSlide>Slide 1</SwiperSlide>
-      <SwiperSlide>Slide 2</SwiperSlide>
-      <SwiperSlide>Slide 3</SwiperSlide>
-      <SwiperSlide>Slide 4</SwiperSlide>
+      {/* Cada SwiperSlide renderiza um SwiperSlideComponent */}
+      <SwiperSlide>
+        <SwiperSlideComponent />
+      </SwiperSlide>
+      <SwiperSlide>
+        <SwiperSlideComponent />
+      </SwiperSlide>
+      <SwiperSlide>
+        <SwiperSlideComponent />
+      </SwiperSlide>
     </Swiper>
   );
 };
 
-export default Swiper;
+export default SwiperComponent;
