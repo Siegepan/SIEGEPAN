@@ -1,11 +1,18 @@
 import "./App.css";
-import Participar from "./componentes/Participar";
-import HeroPageTwo from "./componentes/HeroPageTwo";
+import Participar from "./components/Participar";
+import Hero from "./components/Hero";
+import Submissions from "./components/Submissions";
+import Schedule from "./components/Schedule";
+
+import Header from "./components/Header";
 function App() {
   return (
     <>
       <div>
-        <HeroPageTwo />
+        <Header />
+        <Hero />
+        <Submissions />
+        <Schedule />
         <Participar />
       </div>
     </>
