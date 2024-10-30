@@ -3,6 +3,7 @@ import Hero from "../components/Hero";
 import Submissions from "../components/Submissions";
 import Schedule from "../components/Schedule";
 import SobreSiegepan from "../components/Sobre";
+import Parceiros from "../components/Parceiros";
 function App() {
   return (
     <>
@@ -11,6 +12,7 @@ function App() {
       <Submissions />
       <Schedule />
       <SobreSiegepan />
+      <Parceiros />
     </>
   );
 }
