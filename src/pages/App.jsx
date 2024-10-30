@@ -2,6 +2,7 @@ import Header from "../components/Header";
 import Hero from "../components/Hero";
 import Submissions from "../components/Submissions";
 import Schedule from "../components/Schedule";
+import SobreSiegepan from "../components/Sobre";
 function App() {
   return (
     <>
@@ -9,6 +10,7 @@ function App() {
       <Hero />
       <Submissions />
       <Schedule />
+      <SobreSiegepan />
     </>
   );
 }
