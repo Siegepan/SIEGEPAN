@@ -4,27 +4,26 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import SwiperSlideComponent from "../SwiperSlideComponent";
 
-const SwiperComponent = () => {
+const SwiperComponent = ({ guests, swiperRef }) => {
   return (
     <Swiper
       modules={[A11y, Pagination, Scrollbar]}
-      spaceBetween={325}
+      spaceBetween={310}
       slidesPerView={3}
-      centeredSlides={true}
+      centeredSlides={false}
       pagination={{ clickable: true }}
-      onSwiper={(swiper) => console.log(swiper)}
+      onSwiper={(swiper) => {
+        if (swiperRef) swiperRef.current = swiper;
+      }}
       onSlideChange={() => console.log("slide change")}
     >
       {/* Cada SwiperSlide renderiza um SwiperSlideComponent */}
-      <SwiperSlide>
-        <SwiperSlideComponent />
-      </SwiperSlide>
-      <SwiperSlide>
-        <SwiperSlideComponent />
-      </SwiperSlide>
-      <SwiperSlide>
-        <SwiperSlideComponent />
-      </SwiperSlide>
+
+      {guests.map((guest, index) => (
+        <SwiperSlide key={index}>
+          <SwiperSlideComponent guestProps={guest} />
+        </SwiperSlide>
+      ))}
     </Swiper>
   );
 };
