@@ -4,6 +4,7 @@ import Submissions from "../components/Submissions";
 import Schedule from "../components/Schedule";
 import SobreSiegepan from "../components/Sobre";
 import FAQAccordion from "../components/Faq";
+import Footer from "../components/Footer";
 function App() {
   return (
     <>
@@ -13,6 +14,7 @@ function App() {
       <Schedule />
       <SobreSiegepan />
       <FAQAccordion />
+      <Footer />
     </>
   );
 }

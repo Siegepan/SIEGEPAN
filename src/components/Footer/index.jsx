@@ -6,7 +6,7 @@ import localizacao_icon from "./assets/localizacao.png";
 import email from "./assets/email.png";
 import arquivo_logo from "./assets/arquivo_logo.png";
 
-const CustomFooter = () => {
+const Footer = () => {
   return (
     <footer
       className="text-white py-8 px-5 md:px-10"
@@ -114,4 +114,4 @@ const CustomFooter = () => {
   );
 };
 
-export default CustomFooter;
+export default Footer;
