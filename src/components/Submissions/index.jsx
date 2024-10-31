@@ -28,8 +28,8 @@ const Submissions = () => {
   }, []); // Executa o efeito apenas uma vez, ao montar o componente
 
   return (
-    <div className="px-10 bg-bg rounded-t-[40px]">
-      <div className="max-w-[1440px] max-h-[802px] flex flex-col justify-center mx-auto">
+    <div className="px-10 bg-bg border-none">
+      <div className="max-w-[1440px] flex flex-col justify-center mx-auto">
         <div className="mb-7 flex flex-col">
           <div className="self-center flex flex-row items-baseline gap-4 relative">
             <h1 className="self-center md:text-largetitle sm:text-3xl text-2xl font-semibold mb-5">
@@ -51,13 +51,16 @@ const Submissions = () => {
             e ajude a transformar práticas de saúde.
           </p>
         </div>
-        <div className="h-[900px]">
-          {windowSize.width > 640 ? (
+
+        {windowSize.width > 640 ? (
+          <div>
             <HorizontalTimeLine />
-          ) : (
+          </div>
+        ) : (
+          <div className="h-[900px]">
             <VerticalTimeLine />
-          )}
-        </div>
+          </div>
+        )}
         <div className="mt-20">
           <div className="flex flex-row justify-between items-center gap-10">
             <div>

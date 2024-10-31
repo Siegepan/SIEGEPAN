@@ -139,7 +139,7 @@ export const Schedule = () => {
 
   return (
     <div className="sm:px-20 px-10 bg-bg">
-      <div className="max-w-[1440px] flex flex-col items-center justify-center  w-full mx-auto">
+      <div className="max-w-[1440px] flex flex-col items-center justify-center w-full mx-auto">
         <div className="flex flex-row text-largetitle font-semibold self-end gap-3 mb-8">
           <h1>Programação</h1>
           <img src="/src/assets/images/title-icon.svg" alt="" />

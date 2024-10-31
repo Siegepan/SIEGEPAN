@@ -16,7 +16,7 @@ const Header = () => {
           <img
             src="/src/assets/images/logo.svg"
             alt="Logo"
-            className="h-8 md:h-12"
+            className="h-8 md:h-12 md:hidden block"
           />
           {/* Botão de menu: Exibido apenas em telas pequenas */}
           <button onClick={toggleMenu} className="md:hidden">
