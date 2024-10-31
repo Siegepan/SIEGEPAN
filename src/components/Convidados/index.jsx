@@ -1,5 +1,15 @@
 import Swiper from "./Swiper";
 
+const guests = [
+  {
+    name: "Nome do Convidado",
+    role: "Cargo do Convidado",
+    image: "/src/assets/convidado1.png",
+    type: "Palestra",
+    title: "Título da Palestra",
+  },
+];
+
 const Convidados = () => {
   return (
     <div className="max-w-screen-xl h-[500px] mx-auto grid grid-cols-2 gap-8 ">
