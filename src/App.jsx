@@ -1,6 +1,7 @@
 import "./App.css";
 import Participar from "./componentes/Participar";
 import HeroPageTwo from "./componentes/HeroPageTwo";
+
 function App() {
   return (
     <>
