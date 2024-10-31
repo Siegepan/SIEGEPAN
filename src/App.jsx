@@ -8,13 +8,7 @@ import Header from "./components/Header";
 function App() {
   return (
     <>
-      <div>
-        <Header />
-        <Hero />
-        <Submissions />
-        <Schedule />
-        <Participar />
-      </div>
+      <h1 className="text-black">Hello World</h1>
     </>
   );
 }
