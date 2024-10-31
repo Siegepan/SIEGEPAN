@@ -28,7 +28,7 @@ const Submissions = () => {
   }, []); // Executa o efeito apenas uma vez, ao montar o componente
 
   return (
-    <div className="px-10 bg-bg border-none">
+    <div className="px-10 bg-bg border-none pt-16">
       <div className="max-w-[1440px] flex flex-col justify-center mx-auto">
         <div className="mb-7 flex flex-col">
           <div className="self-center flex flex-row items-baseline gap-4 relative">
@@ -90,7 +90,7 @@ enfermagem e/ou multiprofissional no ciclo gravídico-puerperal."
           </div>
 
           <div className="flex flex-col items-center justify-center mt-6">
-            <h1 className="text-2xl font-semibold max-w-lg text-center mb-4">
+            <h1 className="text-2xl font-semibold max-w-xl text-center mb-4">
               Que tal submeter seu trabalho e compartilhar suas pesquisas no
               SIEGEPAN?
             </h1>

@@ -3,9 +3,9 @@ const AxisCard = ({ info, gradientInverse }) => {
     <div
       className={`p-[1px] ${
         gradientInverse ? "bg-gradient-to-l" : "bg-gradient-to-r"
-      } from-tBlue via-prumary to-tPink rounded-2xl max-h-fit`}
+      } from-tBlue via-prumary to-tPink rounded-2xl max-h-fit `}
     >
-      <div className="bg-bg p-6 rounded-2xl">
+      <div className="bg-bg p-6 rounded-2xl min-h-[130px] flex items-center">
         <p className="text-lg ">{info}</p>
       </div>
     </div>

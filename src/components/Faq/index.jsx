@@ -43,7 +43,7 @@ const FAQAccordion = () => {
   ];
 
   return (
-    <div className="h-full p-14 bg-bg">
+    <div className="h-full p-14 bg-bg pt-36">
       <div className="max-w-[1440px] mx-auto">
         <div className="flex items-center mb-4">
           <img
@@ -51,12 +51,16 @@ const FAQAccordion = () => {
             alt="Planta"
             style={{ width: "48px", height: "48px", marginRight: "8px" }}
           />
-          <h2 className="text-2xl font-bold">Perguntas Frequentes</h2>
+          <h2 className="text-largetitle font-semibold">
+            Perguntas Frequentes
+          </h2>
         </div>
-        <p className="mb-8">
+        <p className="mb-8 text-lg max-w-">
           Precisa de informações? Encontre sua resposta sobre os detalhes do
-          evento aqui! Caso possua mais dúvidas, envie uma mensagem, estaremos
-          prontos para ajudar!
+          evento aqui!
+          <br />
+          Caso possua mais dúvidas, envie uma mensagem, estaremos prontos para
+          ajudar!
         </p>
         <div className="space-y-4 p-4">
           {faqItems.map((item, index) => (

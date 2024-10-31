@@ -113,42 +113,44 @@ const Convidados = () => {
   };
 
   return (
-    <div className="max-w-screen-xl h-fit mx-auto grid grid-cols-2 gap-8 rouded-t-[40px] ">
-      <div className=" flex flex-col justify-between">
-        <div className="flex flex-col gap-4 ">
-          <div className="flex flex-row gap-4">
-            <img src="/src/assets/planta-azul.svg" alt="" />
-            <h1 className="font-semibold text-largetitle">
-              Nossos Convidados Especiais
-            </h1>
+    <div className=" bg-bg w-full pt-36">
+      <div className="max-w-screen-xl h-fit mx-auto grid grid-cols-2 gap-8">
+        <div className=" flex flex-col justify-between">
+          <div className="flex flex-col gap-4 ">
+            <div className="flex flex-row gap-4">
+              <img src="/src/assets/planta-azul.svg" alt="" />
+              <h1 className="font-semibold text-largetitle">
+                Nossos Convidados Especiais
+              </h1>
+            </div>
+            <p className="font-light text-lg max-w-[477px]">
+              Conheça os palestrantes, ministrantes e convidados que trazem suas
+              experiências e conhecimentos únicos para o evento.
+            </p>
           </div>
-          <p className="font-light text-lg max-w-[477px]">
-            Conheça os palestrantes, ministrantes e convidados que trazem suas
-            experiências e conhecimentos únicos para o evento.
-          </p>
-        </div>
-        <div
-          className="flex flex-row gap-2
+          <div
+            className="flex flex-row gap-2
           mb-5
         "
-        >
-          {" "}
-          <button
-            onClick={handlePrev}
-            className="px-6 py-4 bg-tBlue rounded-full hover:bg-[#FCFCFC] hover:border hover:border-[#44444] hover:text-black text-bg"
           >
-            {"<"}
-          </button>
-          <button
-            onClick={handleNext}
-            className="px-6 py-4 bg-tBlue rounded-full hover:bg-[#FCFCFC] hover:border hover:border-[#44444] hover:text-black text-bg"
-          >
-            {">"}
-          </button>
+            {" "}
+            <button
+              onClick={handlePrev}
+              className="px-6 py-4 bg-tBlue rounded-full hover:bg-[#FCFCFC] hover:border hover:border-[#44444] hover:text-black text-bg"
+            >
+              {"<"}
+            </button>
+            <button
+              onClick={handleNext}
+              className="px-6 py-4 bg-tBlue rounded-full hover:bg-[#FCFCFC] hover:border hover:border-[#44444] hover:text-black text-bg"
+            >
+              {">"}
+            </button>
+          </div>
         </div>
-      </div>
-      <div className="">
-        <Swiper guests={guests} />
+        <div className="">
+          <Swiper guests={guests} swiperRef={swiperRef} />
+        </div>
       </div>
     </div>
   );

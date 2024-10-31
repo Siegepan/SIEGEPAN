@@ -14,12 +14,12 @@ function App() {
       <Header />
       <Hero />
       <FiquePorDentro />
-      <Convidados />
       <Submissions />
-      <Parceiros />
+      <Convidados />
       <Schedule />
       <SobreSiegepan />
       <FAQAccordion />
+      <Parceiros />
       <Footer />
     </>
   );

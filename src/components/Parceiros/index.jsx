@@ -39,7 +39,7 @@ function Parceiros() {
   ];
 
   return (
-    <div className="relative p-4 font-sans flex flex-col items-center bg-white overflow-hidden">
+    <div className="relative p-4 font-sans flex flex-col items-center bg-white overflow-hidden py-36">
       {/* Planta roxa no canto esquerdo, ajustável conforme o dispositivo */}
       <img
         src={plantaRoxa}

@@ -17,7 +17,7 @@ function SobreSiegepan() {
   };
 
   return (
-    <div className=" p-6 bg-bg">
+    <div className=" p-6 bg-bg pt-36">
       <div className="max-w-[1440px] flex flex-col items-center mx-auto">
         <div className="flex items-center mb-4">
           <img src={planta} alt="Planta" className="w-10 h-10 mr-2" />
