@@ -6,7 +6,7 @@ const schedule = {
     {
       time: "07h",
       title: "Início do credenciamento 1.1",
-      type: 4, //4: Other
+      type: 4, //1: Palestra, 2: Mesa-redonda, 3: Minicurso 4: Other
       locale: "Sagão principal",
     },
     {
@@ -14,18 +14,18 @@ const schedule = {
       title: "Palestra: O papel da Enfermagem na saúde infantil 1.2",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non nulla vel nibh posuere venenatis id et est. Mauris maximus pulvinar ante at aliquam. Nulla pellentesque accumsan sapien, nec finibus ex vulputate quis. Pellentesque vestibulum ligula massa, eget cursus magna varius et. Maecenas consectetur auctor eleifend.",
-      type: 1, //1: Palestra, 2: Mesa-redonda, 3: Minicurso
+      type: 2, //1: Palestra, 2: Mesa-redonda, 3: Minicurso
       locale: "Auditorio",
       speakers: [
         {
           name: "John Doe",
           role: "Software Engineer",
-          image: "/src/assets/images/avatar.jpg",
+          image: "/src/assets/avatar-teste.png",
         },
         {
           name: "John Doe",
           role: "Software Engineer",
-          image: "/src/assets/images/avatar.jpg",
+          image: "/src/assets/avatar-teste.png",
         },
       ],
     },
@@ -41,7 +41,7 @@ const schedule = {
         {
           name: "John Doe",
           role: "Software Engineer",
-          image: "/src/assets/images/avatar.jpg",
+          image: "/src/assets/avatar-teste.png",
         },
       ],
     },
@@ -138,7 +138,7 @@ export const Schedule = () => {
   }
 
   return (
-    <div className="sm:px-20 px-10 bg-bg">
+    <div className="md:px-20 sm:px-10 px-6 bg-bg">
       <div className="max-w-[1440px] flex flex-col items-center justify-center w-full mx-auto">
         <div className="flex flex-row text-largetitle font-semibold self-end gap-3 mb-8">
           <h1>Programação</h1>

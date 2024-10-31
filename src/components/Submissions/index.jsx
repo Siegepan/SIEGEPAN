@@ -39,7 +39,7 @@ const Submissions = () => {
             <img
               src="/src/assets/images/title-icon.svg"
               alt="line"
-              className="absolute -right-14"
+              className=""
             />
           </div>
 
@@ -57,7 +57,7 @@ const Submissions = () => {
             <HorizontalTimeLine />
           </div>
         ) : (
-          <div className="h-[900px]">
+          <div className="">
             <VerticalTimeLine />
           </div>
         )}

@@ -2,7 +2,7 @@ import HorizontalTimelineItem from "../HorizontalTimeLineItem";
 
 const HorizontalTimeLine = () => {
   return (
-    <div className="flex flex-col items-center w-full max-w-7xl">
+    <div className="flex flex-col items-center  w-7xl lg:pr-4 pr-10">
       <h2 className="text-lg font-semibold mb-4 text-start self-start">
         Datas importantes
       </h2>
