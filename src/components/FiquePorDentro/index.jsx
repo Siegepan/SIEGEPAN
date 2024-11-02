@@ -2,7 +2,7 @@ import pranta from "/src/assets/planta-fique-3.png";
 import plantaVertical from "/src/assets/Planta-fique-1.png";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 import lottieAnimation from "/src/assets/lotties/0H93rE5C00.json?url";
-
+import arrowRight from "/src/assets/prime_arrow-right (1).png";
 const FiquePorDentro = () => {
   return (
     <div className="relative rounded-t-[40px] w-full bg-bg">
@@ -17,7 +17,7 @@ const FiquePorDentro = () => {
           alt="Planta"
           className="absolute left-0 w-1/3 md:w-1/5 lg:w-1/5"
         />
-        <div className="flex flex-col lg:flex-row justify-between w-full gap-8 lg:gap-32 p-24">
+        <div className="flex flex-col lg:flex-row justify-between w-full gap-8 lg:gap-32 py-24 px-6">
           <div className="lottie-gif-hero w-full lg:block hidden ">
             <DotLottieReact
               src={lottieAnimation}
@@ -48,22 +48,13 @@ const FiquePorDentro = () => {
               incluindo a comunidade LGBTQA+, o simpósio busca promover a
               atualização técnico-científica contínua e qualificada.
             </p>
-            <button
-              style={{
-                border: "2px solid #E33B64",
-                width: "max-content",
-                borderRadius: "10px",
-              }}
-              className="p-2 mt-4"
+
+            <a
+              href="#"
+              className="text-lg font-semibold border w-fit py-4 px-7 rounded-[15px] border-tPink text-tPink flex flex-row gap-3"
             >
-              <a
-                href="inscreva-se link"
-                className="font-bold"
-                style={{ color: "#E33B64" }}
-              >
-                Inscreva-se →
-              </a>
-            </button>
+              Inscreva-se <img src={arrowRight} alt="" />
+            </a>
           </div>
         </div>
       </div>

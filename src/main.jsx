@@ -2,10 +2,22 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import App from "./pages/App";
 import "./index.css";
-import TimeLine from "./pages/Timeline";
+import Programacao from "./pages/Programacao";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App />,
+  },
+  {
+    path: "/programacao",
+    element: <Programacao />,
+  },
+]);
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </StrictMode>
 );

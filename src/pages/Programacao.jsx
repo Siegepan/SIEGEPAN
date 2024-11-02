@@ -5,7 +5,7 @@ import Parceiros from "../components/Parceiros";
 import { ParticiparPageTwo } from "../components/ParticiparPageTwo";
 import Schedule from "../components/Schedule";
 
-function TimeLine() {
+function Programacao() {
   return (
     <>
       <HeroPageTwo />
@@ -19,4 +19,4 @@ function TimeLine() {
   );
 }
 
-export default TimeLine;
+export default Programacao;

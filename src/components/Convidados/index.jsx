@@ -263,7 +263,7 @@ const Convidados = () => {
 
   return (
     <div className=" bg-bg w-full pt-36">
-      <div className="max-w-screen-xl h-fit mx-auto md:grid md:grid-cols-2 gap-8 px-10">
+      <div className="max-w-[1440px] h-fit mx-auto md:grid md:grid-cols-2 gap-8 px-10">
         <div className=" flex flex-col justify-between">
           <div className="flex flex-col gap-4 ">
             <div className="flex flex-row gap-4">

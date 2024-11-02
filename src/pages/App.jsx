@@ -8,6 +8,7 @@ import Footer from "../components/Footer";
 import FiquePorDentro from "../components/FiquePorDentro";
 import Parceiros from "../components/Parceiros";
 import Convidados from "../components/Convidados";
+import Participar from "../components/Participar";
 function App() {
   return (
     <>
@@ -20,6 +21,7 @@ function App() {
       <SobreSiegepan />
       <FAQAccordion />
       <Parceiros />
+      <Participar />
       <Footer />
     </>
   );

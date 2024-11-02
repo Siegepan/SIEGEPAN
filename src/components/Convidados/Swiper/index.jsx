@@ -10,7 +10,22 @@ const SwiperComponent = ({ guests, swiperRef }) => {
       modules={[Autoplay]}
       autoplay
       slidesPerView={2}
-      spaceBetween={110}
+      loop={true}
+      breakpoints={{
+        602: {
+          slidesPerView: 2,
+          spaceBetween: 100,
+        },
+        765: {
+          slidesPerView: 2,
+          spaceBetween: 270,
+        },
+        1170: {
+          slidesPerView: 2,
+          spaceBetween: 100,
+        },
+      }}
+      spaceBetween={270}
       centeredSlides={false}
       onSwiper={(swiper) => {
         if (swiperRef) swiperRef.current = swiper;

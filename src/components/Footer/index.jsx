@@ -16,8 +16,8 @@ const Footer = () => {
         <div className="md:w-1/3 flex flex-col items-start gap-y-3">
           <img src={logo} alt="Logo Siegepan" />
           <p className="w-full md:w-11/12">
-            1º Simpósio de Enfermagem sobre as Novas Perspectivas do Gestar,
-            Parir e Nascer
+            1º Simpósio de Enfermagem: Novas Formas de Cuidar em Saúde no
+            Gestar, Parir e Nascer
           </p>
           <div className="flex gap-2">
             <img src={calendario} alt="calendario" />
@@ -85,7 +85,7 @@ const Footer = () => {
             <li className="flex items-center gap-3">
               <img src={email} alt="icone email" />
               <a href="mailto:seuemail@gmail.com" className="hover:underline">
-                seuemail@gmail.com
+                siegepan@gmail.com
               </a>
             </li>
             <li className="flex items-center gap-3">
