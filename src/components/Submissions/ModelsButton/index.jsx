@@ -1,3 +1,5 @@
+import arrowright from "/src/assets/images/prime_arrow-right.svg";
+
 const ModelsButton = ({ label, href }) => {
   return (
     <a
@@ -6,12 +8,7 @@ const ModelsButton = ({ label, href }) => {
       rel="noreferrer"
       className="border border-primary flex flex-row px-6 py-1 rounded-[10px] text-primary font-semibold gap-2 text-nowrap"
     >
-      {label}{" "}
-      <img
-        src="/src/assets/images/prime_arrow-right.svg"
-        alt="arrow"
-        className="lg:mr-0 mr-2"
-      />
+      {label} <img src={arrowright} alt="arrow" className="lg:mr-0 mr-2" />
     </a>
   );
 };

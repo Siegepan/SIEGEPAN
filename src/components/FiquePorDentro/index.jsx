@@ -1,7 +1,7 @@
-import animationData from "/src/assets/lotties/0H93rE5C00.json";
 import pranta from "/src/assets/planta-fique-3.png";
 import plantaVertical from "/src/assets/Planta-fique-1.png";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
+import lottieAnimation from "/src/assets/lotties/0H93rE5C00.json?url";
 
 const FiquePorDentro = () => {
   return (
@@ -20,9 +20,9 @@ const FiquePorDentro = () => {
         <div className="flex flex-col lg:flex-row justify-between w-full gap-8 lg:gap-32 p-24">
           <div className="lottie-gif-hero w-full lg:block hidden ">
             <DotLottieReact
-              src="/src/assets/lotties/0H93rE5C00.json"
-              loop
-              autoplay
+              src={lottieAnimation}
+              loop={true}
+              autoplay={true}
               style={{ width: "100%", height: "100%" }}
             />
           </div>

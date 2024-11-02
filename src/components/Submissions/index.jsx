@@ -4,6 +4,7 @@ import HorizontalTimeLine from "./HorizontalTimeLine";
 import VerticalTimeLine from "./VerticalTimeLine";
 import ModelsButton from "./ModelsButton";
 import SubmissionButton from "./SubmissionButton";
+import titleIcon from "/src/assets/images/title-icon.svg";
 
 const Submissions = () => {
   const [windowSize, setWindowSize] = useState({
@@ -36,11 +37,7 @@ const Submissions = () => {
               Submissões de Trabalho
             </h1>
 
-            <img
-              src="/src/assets/images/title-icon.svg"
-              alt="line"
-              className=""
-            />
+            <img src={titleIcon} alt="line" className="" />
           </div>
 
           <p className="text-lg text-center p-7">
@@ -62,7 +59,7 @@ const Submissions = () => {
           </div>
         )}
         <div className="mt-20">
-          <div className="flex flex-row justify-between items-center gap-10">
+          <div className="flex md:flex-row flex-col md:justify-between items-center md:gap-10 gap-4 mb-10">
             <div>
               <h2 className="text-xl font-semibold">Eixos Temáticos</h2>
               <p className="text-lg  mb-5">

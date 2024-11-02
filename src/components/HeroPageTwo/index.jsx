@@ -3,6 +3,8 @@
 import logo from "/src/assets/logo.svg"; // Importação do logo
 import planta3 from "/src/assets/planta2-roxa.svg"; // Importação da planta3
 import planta2 from "/src/assets/planta3-roxa.svg"; // Importação da planta2
+import logotipe from "/src/assets/images/logotipada.png";
+import arrowRight from "/src/assets/images/prime_arrow-right-white.svg";
 
 const HeroPageTwo = () => {
   return (
@@ -15,21 +17,21 @@ const HeroPageTwo = () => {
       />
 
       {/* Conteúdo principal centralizado */}
-      <div className="text-center p-10  max-w-xl mx-auto">
-        <img src={logo} alt="Logo" className="mx-auto mb-4 w-12 h-12" />
-        <h1 className="text-3xl font-bold mb-2">SIEGEPAN</h1>
-        <p className="text-lg">
+      <div className="text-center p-10 mx-auto flex flex-col items-center justify-center">
+        <img src={logo} alt="Logo" className="mx-auto mb-4 w-[80px]" />
+        <img src={logotipe} alt="Logo SIEGEPAN" />
+        <p className="text-[28px] mt-4">
           1º Simpósio de Enfermagem:
           <br /> <span> Novas Formas de Cuidar em Saúde no </span>
-          <span className="bg-blue-500 text-white font-semibold px-2 rounded mb-100">
+          <span className="bg-tBlue text-white font-semibold px-2 rounded mb-100">
             Gestar
           </span>
           <br />
-          <span className="bg-blue-500 text-white font-semibold px-1 rounded m-2">
+          <span className="bg-tBlue text-white font-semibold px-1 rounded m-2">
             Parir
           </span>{" "}
           e{" "}
-          <span className="bg-blue-500 text-white font-semibold px-1 rounded mt-3">
+          <span className="bg-tBlue text-white font-semibold px-1 rounded mt-3">
             Nascer
           </span>
         </p>
@@ -37,9 +39,13 @@ const HeroPageTwo = () => {
           <p>📅 De 5 a 7 de Dezembro</p>
           <p>📍 Auditório do Instituto de Computação - IC UFMT</p>
         </div>
-        <button className="mt-6 bg-pink-500 text-white font-semibold py-2 px-4 rounded-lg shadow hover:bg-pink-600">
-          Veja o Cronograma Completo ↓
-        </button>
+        <a
+          href="#cron"
+          className="mt-6 bg-tPink text-white font-semibold py-3 px-5 rounded-lg shadow hover:bg-pink-600 flex flex-row items-center justify-center"
+        >
+          <p className="text-xl font-semibold">Veja a programação Completa </p>
+          <img src={arrowRight} className="rotate-90" alt="" />
+        </a>
       </div>
 
       {/* Imagem da planta3 no lado direito, mais acima */}

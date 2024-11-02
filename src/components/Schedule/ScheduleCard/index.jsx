@@ -17,9 +17,6 @@ const ScheduleCard = ({ schedule }) => {
     }
   }
 
-  useEffect(() => {
-    console.log(schedule);
-  }, []);
   return (
     <div className="flex md:flex-row flex-col md:items-start items-center md:gap-20 gap-3 rounded-[50px] border-primary border-[0.5px] p-6">
       <div>
@@ -48,10 +45,10 @@ const ScheduleCard = ({ schedule }) => {
           )}
         </div>
         {schedule.speakers?.length > 0 && (
-          <div className="flex flex-row gap-4 mt-6">
+          <div className="flex md:flex-row flex-col gap-10 mt-6 pr-10 pb-10">
             {schedule.speakers.map((speaker) => (
               <div
-                className="flex flex-row gap-3 max-h-[51px] md:mb-0 mb-5"
+                className="flex flex-row gap-3  md:mb-0 mb-5"
                 key={speaker.name}
               >
                 <img
