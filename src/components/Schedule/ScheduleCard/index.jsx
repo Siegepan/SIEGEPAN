@@ -54,7 +54,11 @@ const ScheduleCard = ({ schedule }) => {
                 className="flex flex-row gap-3 max-h-[51px] md:mb-0 mb-5"
                 key={speaker.name}
               >
-                <img src={speaker.image} alt="" />
+                <img
+                  className="w-[51px] h-[51px] rounded-full"
+                  src={speaker.image}
+                  alt=""
+                />
                 <div className="flex flex-col">
                   <h1 className="md:text-xl text-lg font-light">
                     {speaker.name}

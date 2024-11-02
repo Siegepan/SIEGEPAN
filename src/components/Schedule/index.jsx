@@ -11,16 +11,18 @@ const schedule = {
     },
     {
       time: "08h",
-      title: "Palestra: O papel da Enfermagem na saúde infantil 1.2",
+      title:
+        "Acolhimento e Classificação de Risco Obstétrico: Procedimentos e Análise dos desfechos dos atendimentos na Triagem obstétrica",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non nulla vel nibh posuere venenatis id et est. Mauris maximus pulvinar ante at aliquam. Nulla pellentesque accumsan sapien, nec finibus ex vulputate quis. Pellentesque vestibulum ligula massa, eget cursus magna varius et. Maecenas consectetur auctor eleifend.",
       type: 2, //1: Palestra, 2: Mesa-redonda, 3: Minicurso
       locale: "Auditorio",
       speakers: [
         {
-          name: "John Doe",
-          role: "Software Engineer",
-          image: "/src/assets/avatar-teste.png",
+          name: "Karoline Melo",
+          role: "Enfermeira Obstétrica",
+          image:
+            "/src/assets/images/palestrantes/Minicursos/Dia 05-12/Karoline Melo.jpeg",
         },
         {
           name: "John Doe",
