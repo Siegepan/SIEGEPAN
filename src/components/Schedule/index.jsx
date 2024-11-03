@@ -46,7 +46,7 @@ const schedule = {
       description:
         "Esta atividade discutirá os avanços e desafios nos cuidados à saúde reprodutiva, fundamentais para o cumprimento dos Objetivos de Desenvolvimento Sustentável (ODS), especialmente em saúde (ODS 3) e igualdade de gênero (ODS 5). Serão abordadas inovações em planejamento familiar, cuidados pré-natais e redução da mortalidade materna, além da importância de políticas públicas que garantam acesso universal e equitativo a esses serviços.",
       type: 2, //1: Palestra, 2: Mesa-redonda, 3: Minicurso
-      locale: "Auditorio - IC",
+      locale: "Auditório - IC",
       speakers: [
         {
           name: "Luiz Menechino",
@@ -210,7 +210,7 @@ const schedule = {
       description:
         "A palestra, ministrada por Dan Kaio Lemos, abordará o tema 'Direitos e Saúde Parental em Perspectiva: Desafios e Avanços na Reprodução e Parentalidade'. Dan Kaio Lemos é um homem transfeminista, antropólogo, escritor e doutorando na Universidade de Brasília (UNB) e na Western University, no Canadá. Ele é membro do Núcleo de Transparentalidades do IBRAT (Instituto Brasileiro de Transmasculinidades). A palestra promete explorar temas atuais sobre os direitos e a saúde parental, especialmente no contexto das pessoas trans, destacando os avanços e os desafios enfrentados em questões de reprodução e parentalidade",
       type: 1,
-      locale: "Auditorio do IC",
+      locale: "Auditório do IC",
       speakers: [
         {
           name: "Dan Kaio Lemos",
@@ -226,7 +226,7 @@ const schedule = {
       description:
         "A palestra dinâmica 'O Papel da Equipe Multiprofissional no Pré-natal: Integração Sustentável e Equidade no Acesso à Saúde Materno e Infantil,' conduzida por Aline Bianca Costa dos Santos, Gisela Arsa da Cunha e Lorena Barbosa Fonseca, explora a importância da atuação integrada e colaborativa dos profissionais de saúde no pré-natal. Com uma abordagem voltada para a sustentabilidade e a equidade, a palestra destaca como a equipe multiprofissional pode melhorar o acesso à saúde materno-infantil, garantindo cuidado abrangente e respeitoso. São abordados temas como o acompanhamento contínuo da gestante, intervenções preventivas e estratégias para promover a inclusão e o apoio às mulheres em diferentes contextos sociais e econômicos. Este encontro visa inspirar práticas de saúde baseadas na cooperação e em modelos de cuidado mais humanizados e acessíveis",
       type: 2,
-      locale: "Auditorio do IC",
+      locale: "Auditório do IC",
       speakers: [
         {
           name: "Aline Bianca Costa dos Santos",
@@ -297,7 +297,7 @@ const schedule = {
       description:
         "A experiencia exitosa será ministrada por Vanusa Cristina, enfermeira graduada pela Universidade Federal de Mato Grosso (2001) e pós-graduada em enfermagem obstétrica pela mesma universidade (2004). Vanusa é enfermeira coordenadora do Hospital Beneficente Santa Helena, em Mato Grosso, e também atua como doula. No evento, ela abordará a 'Iniciativa Hospital Amigo da Criança', discutindo as melhores práticas e os benefícios desse programa voltado para a promoção do aleitamento materno e do acolhimento humanizado de mães e recém-nascidos. A apresentação será breve, com duração de 10 a 15 minutos, e começará às 10h50, no dia 6 de dezembro de 2024",
       type: 4,
-      locale: "Auditorio do IC",
+      locale: "Auditório do IC",
       speakers: [
         {
           name: "Vanusa Cristina",
@@ -312,7 +312,7 @@ const schedule = {
       description:
         "Nely Alves de Castro Lima apresentará a palestra 'Conhecendo o Banco de Leite Humano', destacando a importância da doação de leite materno para a saúde infantil. Serão abordados os processos de coleta e armazenamento do leite. O objetivo é conscientizar sobre os benefícios e a necessidade dessa prática.",
       type: 4,
-      locale: "Auditorio do IC",
+      locale: "Auditório do IC",
       speakers: [
         {
           name: "Nely Alves",
@@ -324,33 +324,63 @@ const schedule = {
   ],
   3: [
     {
-      time: "10h",
-      title: "Mesa-redonda: O papel da Enfermagem na saúde infantil 3.1",
+      time: "08:15h",
+      title: "Palestra: Plano de Parto e Empoderamento: Preparação para um Parto Respeitoso e Garantia do Princípio da Integralidade do SUS.",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non nulla vel nibh posuere venenatis id et est. Mauris maximus pulvinar ante at aliquam. Nulla pellentesque accumsan sapien, nec finibus ex vulputate quis. Pellentesque vestibulum ligula massa, eget cursus magna varius et. Maecenas consectetur auctor eleifend.",
-      type: 2,
-      locale: "Auditorio",
+        "Nesta palestra, será abordado a importância do planejamento e da autonomia das gestantes no processo de parto. Serão discutidos temas como a criação do plano de parto, que permite expressar desejos e preferências sobre o nascimento, e o empoderamento das mulheres para tomadas de decisões informadas. Além disso, a palestra destacará como o Sistema Único de Saúde (SUS) assegura um cuidado humanizado e integral, promovendo um parto respeitoso e alinhado aos direitos da gestante e do bebê.",
+      type: 1,
+      locale: "Auditório do IC",
       speakers: [
         {
-          name: "John Doe",
-          role: "Software Engineer",
-          image: "/src/assets/images/avatar.jpg",
+          name: "Cristiane Ferreira",
+          role: "Enfermeira da equipe Liorá Parteiras Urbanas.",
+          image: CristianeFerreira,
         },
       ],
     },
     {
-      time: "14h",
-      title: "Mesa-redonda: O papel da Enfermagem na saúde infantil 3.2",
+      time: "09h",
+      title: "Experiências exitosas em saúde: NBCAL",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non nulla vel nibh posuere venenatis id et est. Mauris maximus pulvinar ante at aliquam. Nulla pellentesque accumsan sapien, nec finibus ex vulputate quis. Pellentesque vestibulum ligula massa, eget cursus magna varius et. Maecenas consectetur auctor eleifend.",
-      type: 2,
-      locale: "Auditorio",
+        "Dedicada à exibição de projetos e estudos que promovem a aplicação e os resultados positivos da Norma Brasileira de Comercialização de Alimentos para Lactentes e Crianças de Primeira Infância (NBCAL) no campo da enfermagem. Nesta sessão, profissionais de enfermagem compartilham práticas bem-sucedidas, desafios enfrentados e estratégias adotadas para apoiar a amamentação e garantir a saúde infantil conforme as diretrizes da NBCAL.",
+      type: 1,
+      locale: "Auditório do IC",
       speakers: [
         {
-          name: "John Doe",
-          role: "Software Engineer",
-          image: "/src/assets/images/avatar.jpg",
+          name: "Tatiana Bering",
+          role: "Doutora em Nutrição na UFMT",
+          image: TatianaBering,
         },
+      ],
+    },
+    {
+      time: "10:05h",
+      title: "Luto fetal: desafios psicoemocionais e a importância da rede de apoio",
+      description:
+        "Luto Fetal: Desafios Psicoemocionais e a Importância da Rede de Apoio será uma mesa-redonda que reunirá especialistas para discutir os desafios emocionais e psicológicos enfrentados por famílias que passaram pela perda gestacional ou neonatal.",
+      type: 2,
+      locale: "Auditório do IC",
+      speakers: [
+        {
+          name: "Beluci Bianca",
+          role: "Enfermeira Mestre",
+          image: BeluciBianca,
+        },
+        {
+          name: "Alessandra Rodrigues",
+          role: "Enfermeira Obstetra",
+          image: AlessandraEmanuelleCunhaRodrigues,
+        },
+        {
+          name: "Deise Vilani",
+          role: "Psicóloga Especialista",
+          image: DeiseVilani,
+        },
+        {
+          name: "Vitória Valéria Cristo Santos",
+          role: "Enfermeira/Residente em obstetrícia",
+          image: VitoriaValeriaCristoSantos,
+        }
       ],
     },
   ],
