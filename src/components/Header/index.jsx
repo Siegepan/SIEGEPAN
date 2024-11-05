@@ -9,7 +9,7 @@ const Header = () => {
   };
 
   return (
-    <div className="bg-primary px-5 py-4 max-w-[1920px] m-auto md:static fixed w-full transition-all ease-in-out duration-500">
+    <div className="bg-primary px-5 py-4 max-w-[1920px] m-auto md:static sticky w-full transition-all ease-in-out duration-500">
       <div className="flex flex-col md:flex-row justify-between items-center">
         {/* Logo e botão de menu */}
         <div className="flex justify-between items-center w-full">
