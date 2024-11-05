@@ -30,6 +30,7 @@ import TatianaBering from "/src/assets/images/palestrantes/Experiência exitosa/
 import BeluciBianca from "/src/assets/images/palestrantes/Mesas redondas/Dia 07-12/Beluci Bianca.jpg";
 import AlessandraEmanuelleCunhaRodrigues from "/src/assets/images/palestrantes/Mesas redondas/Dia 07-12/Alessandra Emanuelle Cunha Rodrigues_.jpg";
 import DeiseVilani from "/src/assets/images/palestrantes/Mesas redondas/Dia 07-12/Deise Vilani.jpg";
+import { Link } from "react-router-dom";
 
 const schedule = {
   1: [
@@ -325,7 +326,8 @@ const schedule = {
   3: [
     {
       time: "08:15h",
-      title: "Palestra: Plano de Parto e Empoderamento: Preparação para um Parto Respeitoso e Garantia do Princípio da Integralidade do SUS.",
+      title:
+        "Palestra: Plano de Parto e Empoderamento: Preparação para um Parto Respeitoso e Garantia do Princípio da Integralidade do SUS.",
       description:
         "Nesta palestra, será abordado a importância do planejamento e da autonomia das gestantes no processo de parto. Serão discutidos temas como a criação do plano de parto, que permite expressar desejos e preferências sobre o nascimento, e o empoderamento das mulheres para tomadas de decisões informadas. Além disso, a palestra destacará como o Sistema Único de Saúde (SUS) assegura um cuidado humanizado e integral, promovendo um parto respeitoso e alinhado aos direitos da gestante e do bebê.",
       type: 1,
@@ -355,7 +357,8 @@ const schedule = {
     },
     {
       time: "10:05h",
-      title: "Luto fetal: desafios psicoemocionais e a importância da rede de apoio",
+      title:
+        "Luto fetal: desafios psicoemocionais e a importância da rede de apoio",
       description:
         "Luto Fetal: Desafios Psicoemocionais e a Importância da Rede de Apoio será uma mesa-redonda que reunirá especialistas para discutir os desafios emocionais e psicológicos enfrentados por famílias que passaram pela perda gestacional ou neonatal.",
       type: 2,
@@ -380,7 +383,7 @@ const schedule = {
           name: "Vitória Valéria Cristo Santos",
           role: "Enfermeira/Residente em obstetrícia",
           image: VitoriaValeriaCristoSantos,
-        }
+        },
       ],
     },
   ],
@@ -452,18 +455,17 @@ export const Schedule = ({ pageTwo }) => {
         </div>
         <div className="flex flex-col gap-7">
           {selectedSchedule.map((schedule) => (
-            <ScheduleCard schedule={schedule} key={schedule.title} />
+            <ScheduleCard schedule={schedule} key={"hash_" + Math.random} />
           ))}
         </div>
 
         {!pageTwo && (
-          <a
-            href="/programacao"
-            className="flex flex-row gap-2 px-8 py-3 rounded-[15px] mt-14 bg-gradient-to-r from-[#51ACD999] via-[#8644F099] to-[#E43B6499] text-bg"
-          >
-            <p className="text-xl">Ver programação completa</p>
-            <img src={whitearrow} alt="" />
-          </a>
+          <Link to="/programacao">
+            <a className="flex flex-row gap-2 px-8 py-3 rounded-[15px] mt-14 bg-gradient-to-r from-[#51ACD999] via-[#8644F099] to-[#E43B6499] text-bg">
+              <p className="text-xl">Ver programação completa</p>
+              <img src={whitearrow} alt="" />
+            </a>
+          </Link>
         )}
       </div>
     </div>

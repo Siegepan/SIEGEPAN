@@ -30,44 +30,40 @@ const Footer = () => {
           <div className="flex flex-wrap gap-5">
             <ul className="space-y-2 flex items-start flex-col">
               <li>
-                <a href="#" className="hover:underline font-semibold">
+                <a href="#home" className="hover:underline font-semibold">
                   Home
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:underline font-semibold">
+                <a href="#sobre" className="hover:underline font-semibold">
                   Sobre
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:underline font-semibold">
+                <a href="#homecron" className="hover:underline font-semibold">
                   Cronograma
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:underline font-semibold">
+                <a href="#convidados" className="hover:underline font-semibold">
                   Palestrantes
                 </a>
               </li>
             </ul>
             <ul className="space-y-2 flex items-start flex-col">
               <li>
-                <a href="#" className="hover:underline font-semibold">
+                <a href="#submissoes" className="hover:underline font-semibold">
                   Submissões
                 </a>
               </li>
+
               <li>
-                <a href="#" className="hover:underline font-semibold">
-                  Idealizadores
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:underline font-semibold">
+                <a href="#faq" className="hover:underline font-semibold">
                   Perguntas Frequentes
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:underline font-semibold">
+                <a href="#parceiros" className="hover:underline font-semibold">
                   Apoio
                 </a>
               </li>
@@ -90,14 +86,21 @@ const Footer = () => {
             </li>
             <li className="flex items-center gap-3">
               <img src={link_icon} alt="icone link" />
-              <a href="https://seulink.even3.com" className="hover:underline">
-                seulink.even3.com
+              <a
+                href="https://www.even3.com.br/siegepan/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:underline"
+              >
+                https://www.even3.com.br/siegepan/
               </a>
             </li>
             <li className="flex items-center gap-3">
               <img src={logo_insta} alt="icone instagram" />
               <a
                 href="https://instagram.com/siegepan"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="hover:underline"
               >
                 instagram.com/siegepan
@@ -105,7 +108,14 @@ const Footer = () => {
             </li>
             <li className="flex items-center gap-3">
               <img src={arquivo_logo} alt="icone arquivo" />
-              <span>Regimento Interno</span>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:underline"
+                href="https://drive.google.com/file/d/1lQIjg1zvcGvHO8rgJmnewb0aTGLjxFra/view"
+              >
+                <span>Regimento Interno</span>
+              </a>
             </li>
           </ul>
         </div>

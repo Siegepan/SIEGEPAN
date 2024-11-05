@@ -1,20 +1,20 @@
 import { useState } from "react";
-
+import menuBar from "/src/assets/images/menu-bar.svg";
+import headerLogo from "/src/assets/images/logo.svg";
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const menuBar = "/src/assets/images/menu-bar.svg";
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
   return (
-    <div className="bg-primary px-5 py-4 max-w-[1920px] m-auto">
+    <div className="bg-primary px-5 py-4 max-w-[1920px] m-auto md:static fixed w-full transition-all ease-in-out duration-500">
       <div className="flex flex-col md:flex-row justify-between items-center">
         {/* Logo e botão de menu */}
         <div className="flex justify-between items-center w-full">
           <img
-            src="/src/assets/images/logo.svg"
+            src={headerLogo}
             alt="Logo"
             className="h-8 md:h-12 md:hidden block"
           />
@@ -37,12 +37,12 @@ const Header = () => {
               </a>
             </li>
             <li>
-              <a href="#cronograma" className="relative hover-bar">
-                Cronograma
+              <a href="#homecron" className="relative hover-bar">
+                Programação
               </a>
             </li>
             <li>
-              <a href="#palestrantes" className="relative hover-bar">
+              <a href="#convidados" className="relative hover-bar">
                 Palestrantes
               </a>
             </li>
@@ -52,7 +52,7 @@ const Header = () => {
               </a>
             </li>
             <li>
-              <a href="#apoio" className="relative hover-bar">
+              <a href="#parceiros" className="relative hover-bar">
                 Apoio
               </a>
             </li>

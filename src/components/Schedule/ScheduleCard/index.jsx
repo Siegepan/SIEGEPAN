@@ -18,7 +18,7 @@ const ScheduleCard = ({ schedule }) => {
   }
 
   return (
-    <div className="flex md:flex-row flex-col md:items-start items-center md:gap-20 gap-3 rounded-[50px] border-primary border-[0.5px] p-6">
+    <div className="flex md:flex-row flex-col md:items-start items-center lg:gap-16 md:gap-6 gap-3 rounded-[50px] border-primary border-[0.5px] p-6">
       <div>
         <div
           className={`w-4 h-4 rounded-full bg-${getCardType(

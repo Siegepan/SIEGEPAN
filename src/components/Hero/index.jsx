@@ -19,11 +19,11 @@ Button.propTypes = {
 
 function Hero() {
   return (
-    <div className="flex flex-col md:flex-row justify-between bg-primary pb-6  md:h-[700px] h-[420px]">
+    <div className="flex flex-col md:flex-row justify-between bg-primary md:pb-6 mb-36  md:h-[700px] h-[420px] md:mt-0 pt-24">
       <div className="hidden md:flex flex-col justify-end">
         <img src={arrowl} alt="" className="w-full h-auto" />
       </div>
-      <div className="flex flex-col  md:flex-row items-center justify-center font-poppins ">
+      <div className="flex flex-col md:flex-row items-center justify-center font-poppins ">
         <div className="flex flex-col items-center md:items-start w-full md:max-w-[1440px] gap-2">
           <div className="flex flex-nowrap flex-col md:flex-row order-1 md:order-none gap-1 mb-11 ">
             <div className="flex gap-2 md:rounded-[100px] md:bg-black/15 px-3 py-2 items-center">
@@ -50,7 +50,9 @@ function Hero() {
           </p>
           <a
             className="text-bg bg-tPink flex items-center order-1 px-6 py-4 rounded-[15px] text-lg font-semibold gap-2"
-            href="#as"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.even3.com.br/siegepan/"
           >
             Inscrever-se{" "}
             <img src={warrow} alt="" className="md:w-[33px] md:h-[25px]" />

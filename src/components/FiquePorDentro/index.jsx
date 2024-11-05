@@ -50,7 +50,9 @@ const FiquePorDentro = () => {
             </p>
 
             <a
-              href="#"
+              href="https://www.even3.com.br/siegepan/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-lg font-semibold border w-fit py-4 px-7 rounded-[15px] border-tPink text-tPink flex flex-row gap-3"
             >
               Inscreva-se <img src={arrowRight} alt="" />

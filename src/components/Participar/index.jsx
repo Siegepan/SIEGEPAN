@@ -46,7 +46,9 @@ const Participar = () => {
           </div>
         </div>
         <a
-          href="#"
+          href="https://www.even3.com.br/siegepan/"
+          target="_blank"
+          rel="noopener noreferrer"
           className=" flex flex-col md:flex-row opacity-50 text-white font-semibold 
           rounded-lg bg-gradient-to-r from-[#51ACD9] via-[#8644F0] to-[#E43B64] 
           hover:from-blue-500 hover:to-pink-500 m-3 py-3 px-5 text-nowrap"

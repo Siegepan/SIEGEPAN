@@ -20,24 +20,35 @@ const FAQAccordion = () => {
     {
       question: "Quando e onde acontecerá o evento?",
       answer:
-        "O evento acontecerá dos dias 5 a 7 de dezembro, no auditório do Instituto de Computação (IC).",
+        "O evento acontecerá dos dias 5 a 7 de dezembro, no auditório do Instituto de Computação (IC) no período matutino e na Faculdade de Enfermagem (FAEN) no período vespertino.",
       icon: grupo,
     },
-    { question: "Como realizo minha inscrição?", answer: "", icon: register },
+    {
+      question: "Como realizo minha inscrição?",
+      answer:
+        'Você pode realizar a sua inscrição através da plataforma Even3 pelo link <a href="https://www.even3.com.br/siegepan/" target="_blank" rel="noopener noreferrer"> https://www.even3.com.br/siegepan/ </a>',
+      icon: register,
+    },
     {
       question: "Haverá emissão de certificado para os participantes?",
-      answer: "",
+      answer: "Sim, haverá emissão de certificado para os participantes.",
       icon: certificado,
     },
-    { question: "A participação é gratuita?", answer: "", icon: money },
+    {
+      question: "A participação é gratuita?",
+      answer: "Sim, a participação é totalmente gratuita.",
+      icon: money,
+    },
     {
       question: "Onde posso submeter meu trabalho?",
-      answer: "",
+      answer:
+        'Você pode submeter o seu trabalho no período de 17/10 até 13/11 através do formulário <a href="https://docs.google.com/forms/d/e/1FAIpQLSeIFme2jz5GZji-NNNe4nukNzWRHc636_9i7kdrn0b4ZMcUJA/viewform" target="_blank" rel="noopener noreferrer">siegepan/forms.com.br</a>',
       icon: grafico,
     },
     {
       question: "Como consigo entrar em contato com a organização?",
-      answer: "",
+      answer:
+        "Você pode nos contatar através de nossa rede social <a href='https://www.instagram.com/siegepan/' target='_blank' rel='noopener noreferrer'>instagram.com/siegepan/</a> estaremos prontos para sanar suas dúvidas.",
       icon: phone,
     },
   ];
@@ -95,9 +106,12 @@ const FAQAccordion = () => {
                 />
               </button>
               {activeIndex === index && (
-                <div className="p-4">
-                  {item.answer ? item.answer : "Resposta em breve!"}
-                </div>
+                <div
+                  className="p-4"
+                  dangerouslySetInnerHTML={{
+                    __html: item.answer || "Resposta em breve!",
+                  }}
+                />
               )}
             </div>
           ))}
