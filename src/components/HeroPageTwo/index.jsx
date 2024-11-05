@@ -42,6 +42,7 @@ const HeroPageTwo = () => {
         <a
           href="#cron"
           className="mt-6 bg-tPink text-white font-semibold py-3 px-5 rounded-lg shadow hover:bg-pink-600 flex flex-row items-center justify-center"
+          style={{backgroundColor:"#E43B64"}}
         >
           <p className="text-xl font-semibold">Veja a programação Completa </p>
           <img src={arrowRight} className="rotate-90" alt="" />
