@@ -14,4 +14,15 @@ export default defineConfig({
     ],
   }),
   ],
+  base: "/", // Define a base para o seu aplicativo, geralmente a raiz "/"
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks: undefined,
+      },
+    },
+  },
+  server: {
+    historyApiFallback: true, // Permite que todas as rotas apontem para index.html
+  },
 })
