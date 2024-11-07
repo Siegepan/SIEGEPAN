@@ -41,7 +41,7 @@ const Footer = () => {
               </li>
               <li>
                 <a href="#homecron" className="hover:underline font-semibold">
-                  Cronograma
+                  Programação
                 </a>
               </li>
               <li>

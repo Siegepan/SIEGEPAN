@@ -1,8 +1,7 @@
 import logo1 from "/src/assets/colaboradores/logo-ufmt.png";
 import logo2 from "/src/assets/colaboradores/logo-procev.png";
 import logo3 from "/src/assets/colaboradores/logo-prolan.png";
-import logo4 from "/src/assets/colaboradores/logo-ninho.png";
-import logo5 from "/src/assets/colaboradores/logo-faen.png";
+import logo4 from "/src/assets/colaboradores/logo-proad.png";
 import logo6 from "/src/assets/colaboradores/logo-1.png";
 import logo7 from "/src/assets/colaboradores/logo-2.png";
 import logo8 from "/src/assets/colaboradores/logo-3.png";
@@ -22,19 +21,18 @@ function Parceiros() {
     { name: "logo2", logo: logo2 },
     { name: "logo3", logo: logo3 },
     { name: "logo4", logo: logo4 },
-    { name: "logo5", logo: logo5 },
   ];
 
   const parceirosComuns = [
-    { name: "logo6", logo: logo6 },
-    { name: "logo7", logo: logo7 },
+    { name: "logo13", logo: logo13 },
+    { name: "logo14", logo: logo14 },
     { name: "logo8", logo: logo8 },
     { name: "logo9", logo: logo9 },
     { name: "logo10", logo: logo10 },
     { name: "logo11", logo: logo11 },
     { name: "logo12", logo: logo12 },
-    { name: "logo13", logo: logo13 },
-    { name: "logo14", logo: logo14 },
+    { name: "logo6", logo: logo6 },
+    { name: "logo7", logo: logo7 },
     { name: "logo15", logo: logo15 },
   ];
 
@@ -60,12 +58,12 @@ function Parceiros() {
       </div>
 
       {/* Grid de Logos em Destaque, sempre maior */}
-      <div className="flex justify-center w-full">
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 sm:gap-8 md:gap-10 mb-8 place-items-center z-10 w-full max-w-6xl">
+      <div className="flex justify-center w-full items-center ">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 sm:gap-8 md:gap-10 mb-8 place-items-center z-10 w-full mx-auto max-w-6xl justify-center items-center  lg:pl-28">
           {parceirosDestaque.map((parceiro, index) => (
             <div
               key={index}
-              className="flex items-center justify-center p-2 rounded-lg transition-transform hover:scale-105"
+              className="flex items-center justify-center w-fit p-2 rounded-lg transition-transform hover:scale-105"
             >
               <img
                 className="logoEmpresa h-20 sm:h-24 md:h-28 lg:h-32 xl:h-36 object-contain"
@@ -86,7 +84,7 @@ function Parceiros() {
               className="flex items-center justify-center p-2 rounded-lg transition-transform hover:scale-105"
             >
               <img
-                className="logoEmpresa h-14 sm:h-18 md:h-22 lg:h-26 xl:h-30 object-contain"
+                className="logoEmpresa h-10 sm:h-14 md:h-16 lg:h-20 xl:h-20 object-contain"
                 src={parceiro.logo}
                 alt={`${parceiro.name} logo`}
               />

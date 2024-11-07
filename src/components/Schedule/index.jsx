@@ -35,10 +35,22 @@ import { Link } from "react-router-dom";
 const schedule = {
   1: [
     {
-      time: "07h",
-      title: "Início do credenciamento 1.1",
+      time: "07:30h",
+      title: "Início do credenciamento das palestras",
       type: 5, //1: Palestra, 2: Mesa-redonda, 3: Minicurso, 5: Experiencia existosa 5: Other
-      locale: "Sagão principal",
+      locale: "Saguão principal",
+    },
+    {
+      time: "08:05h",
+      title: "Abertura e Apresentação Cultural",
+      type: 5, //1: Palestra, 2: Mesa-redonda, 3: Minicurso, 6: Experiencia existosa 5: Other
+      locale: "Auditório - IC",
+    },
+    {
+      time: "09:10h",
+      title: "Intervalo para sorteios",
+      type: 5, //1: Palestra, 2: Mesa-redonda, 3: Minicurso, 6: Experiencia existosa 5: Other
+      locale: "Auditório - IC",
     },
     {
       time: "09:25h",
@@ -51,7 +63,7 @@ const schedule = {
       speakers: [
         {
           name: "Luiz Menechino",
-          role: "Médico Ginecologista e Obstreta",
+          role: "Médico Ginecologista e Obstetra",
           image: LuizAugustoImage,
         },
         {
@@ -67,6 +79,12 @@ const schedule = {
       ],
     },
     {
+      time: "10:30h",
+      title: "Intervalo para o coffee break",
+      type: 5,
+      locale: "Saguão principal",
+    },
+    {
       time: "11:05h",
       title:
         "Boas práticas gestacionais, como o cuidado pré natal e a abordagem familiar impactam na saúde das futuras gerações",
@@ -77,7 +95,7 @@ const schedule = {
       speakers: [
         {
           name: "Jeane Anschau",
-          role: "Doutoura em Enfermagem pela FAEN/UFMT",
+          role: "Doutora em Enfermagem pela FAEN/UFMT",
           image: JeaneAnschauImage,
         },
         {
@@ -91,6 +109,12 @@ const schedule = {
           image: JoaoGabrielImage,
         },
       ],
+    },
+    {
+      time: "13:30h",
+      title: "Credenciamento dos minicursos",
+      type: 5,
+      locale: "FAEN - UFMT",
     },
     {
       time: "14:00h",
@@ -155,6 +179,7 @@ const schedule = {
         },
       ],
     },
+
     {
       time: "14:00h",
       title:
@@ -173,6 +198,115 @@ const schedule = {
     },
   ],
   2: [
+    {
+      time: "07:30h",
+      title: "Início do credenciamento das palestras",
+      type: 5,
+      locale: "Saguão principal",
+    },
+
+    {
+      time: "08:05h",
+      title:
+        "O Papel da Equipe Multiprofissional no Pré-natal: Integração Sustentável e Equidade no Acesso à Saúde Materno e Infantil.",
+      description:
+        "A palestra dinâmica 'O Papel da Equipe Multiprofissional no Pré-natal: Integração Sustentável e Equidade no Acesso à Saúde Materno e Infantil,' conduzida por Aline Bianca Costa dos Santos, Gisela Arsa da Cunha e Lorena Barbosa Fonseca, explora a importância da atuação integrada e colaborativa dos profissionais de saúde no pré-natal. Com uma abordagem voltada para a sustentabilidade e a equidade, a palestra destaca como a equipe multiprofissional pode melhorar o acesso à saúde materno-infantil, garantindo cuidado abrangente e respeitoso. São abordados temas como o acompanhamento contínuo da gestante, intervenções preventivas e estratégias para promover a inclusão e o apoio às mulheres em diferentes contextos sociais e econômicos. Este encontro visa inspirar práticas de saúde baseadas na cooperação e em modelos de cuidado mais humanizados e acessíveis",
+      type: 2,
+      locale: "Auditório do IC",
+      speakers: [
+        {
+          name: "Aline Bianca Costa dos Santos",
+          role: "Assistente Social Especialista em Saúde mental",
+          image: AlineBiancaCostaDosSantos,
+        },
+        {
+          name: "Gisela Arsa da Cunha",
+          role: "Nutricionista Educadora Fisica e Doutora",
+          image: GiselaArsaDaCunha,
+        },
+        {
+          name: "Lorena Barbosa",
+          role: "Nutricionista e Doutora em Saúde Coletiva",
+          image: LorenaBarbosaFonseca,
+        },
+      ],
+    },
+
+    {
+      time: "10:00h",
+      title: "Intervalo para sorteios",
+      type: 5,
+      locale: "Auditório do IC",
+    },
+    {
+      time: "10:15h",
+      title: "Intervalo para o coffee break",
+      type: 5,
+      locale: "Saguão principal",
+    },
+
+    {
+      time: "10:50h",
+      title: "Conhecendo o Banco de Leite Humano",
+      description:
+        "Nely Alves de Castro Lima apresentará a palestra 'Conhecendo o Banco de Leite Humano', destacando a importância da doação de leite materno para a saúde infantil. Serão abordados os processos de coleta e armazenamento do leite. O objetivo é conscientizar sobre os benefícios e a necessidade dessa prática.",
+      type: 6,
+      locale: "Saguão princial",
+      speakers: [
+        {
+          name: "Nely Alves",
+          role: "Enfermeira Especialista",
+          image: NelyAlvesDeCastroLima,
+        },
+      ],
+    },
+
+    {
+      time: "10:50h",
+      title: "Iniciativa Hospital Amigo da Criança",
+      description:
+        "A experiencia exitosa será ministrada por Vanusa Cristina, enfermeira graduada pela Universidade Federal de Mato Grosso (2001) e pós-graduada em enfermagem obstétrica pela mesma universidade (2004). Vanusa é enfermeira coordenadora do Hospital Beneficente Santa Helena, em Mato Grosso, e também atua como doula. No evento, ela abordará a 'Iniciativa Hospital Amigo da Criança', discutindo as melhores práticas e os benefícios desse programa voltado para a promoção do aleitamento materno e do acolhimento humanizado de mães e recém-nascidos. A apresentação será breve, com duração de 10 a 15 minutos, e começará às 10h50, no dia 6 de dezembro de 2024",
+      type: 6,
+      locale: "Saguão principal",
+      speakers: [
+        {
+          name: "Vanusa Cristina",
+          role: "Enfermeira Coordenadora",
+          image: VanusaCristina,
+        },
+      ],
+    },
+    {
+      time: "10:50h",
+      title: "Apresentação de trabalhos",
+      type: 5,
+      locale: "Auditório do IC",
+    },
+
+    {
+      time: "11:55h",
+      title:
+        "Direitos e Saúde Parental em Perspectiva: Desafios e Avanços na Reprodução e Parentalidade",
+      description:
+        "A palestra, ministrada por Dan Kaio Lemos, abordará o tema 'Direitos e Saúde Parental em Perspectiva: Desafios e Avanços na Reprodução e Parentalidade'. Dan Kaio Lemos é um homem transfeminista, antropólogo, escritor e doutorando na Universidade de Brasília (UNB) e na Western University, no Canadá. Ele é membro do Núcleo de Transparentalidades do IBRAT (Instituto Brasileiro de Transmasculinidades). A palestra promete explorar temas atuais sobre os direitos e a saúde parental, especialmente no contexto das pessoas trans, destacando os avanços e os desafios enfrentados em questões de reprodução e parentalidade",
+      type: 1,
+      locale: "Auditório do IC",
+      speakers: [
+        {
+          name: "Dan Kaio Lemos",
+          role: "Antropólogo e Escritor",
+          image: DanKaioLemos,
+        },
+      ],
+    },
+
+    {
+      time: "13:30h",
+      title: "Credenciamento dos minicursos",
+      type: 5,
+      locale: "FAEN - UFMT",
+    },
+
     {
       time: "14h",
       title:
@@ -204,48 +338,7 @@ const schedule = {
         },
       ],
     },
-    {
-      time: "11:55h",
-      title:
-        "Direitos e Saúde Parental em Perspectiva: Desafios e Avanços na Reprodução e Parentalidade",
-      description:
-        "A palestra, ministrada por Dan Kaio Lemos, abordará o tema 'Direitos e Saúde Parental em Perspectiva: Desafios e Avanços na Reprodução e Parentalidade'. Dan Kaio Lemos é um homem transfeminista, antropólogo, escritor e doutorando na Universidade de Brasília (UNB) e na Western University, no Canadá. Ele é membro do Núcleo de Transparentalidades do IBRAT (Instituto Brasileiro de Transmasculinidades). A palestra promete explorar temas atuais sobre os direitos e a saúde parental, especialmente no contexto das pessoas trans, destacando os avanços e os desafios enfrentados em questões de reprodução e parentalidade",
-      type: 1,
-      locale: "Auditório do IC",
-      speakers: [
-        {
-          name: "Dan Kaio Lemos",
-          role: "Antropólogo e Escritor",
-          image: DanKaioLemos,
-        },
-      ],
-    },
-    {
-      time: "08:05h",
-      title:
-        "O Papel da Equipe Multiprofissional no Pré-natal: Integração Sustentável e Equidade no Acesso à Saúde Materno e Infantil.",
-      description:
-        "A palestra dinâmica 'O Papel da Equipe Multiprofissional no Pré-natal: Integração Sustentável e Equidade no Acesso à Saúde Materno e Infantil,' conduzida por Aline Bianca Costa dos Santos, Gisela Arsa da Cunha e Lorena Barbosa Fonseca, explora a importância da atuação integrada e colaborativa dos profissionais de saúde no pré-natal. Com uma abordagem voltada para a sustentabilidade e a equidade, a palestra destaca como a equipe multiprofissional pode melhorar o acesso à saúde materno-infantil, garantindo cuidado abrangente e respeitoso. São abordados temas como o acompanhamento contínuo da gestante, intervenções preventivas e estratégias para promover a inclusão e o apoio às mulheres em diferentes contextos sociais e econômicos. Este encontro visa inspirar práticas de saúde baseadas na cooperação e em modelos de cuidado mais humanizados e acessíveis",
-      type: 2,
-      locale: "Auditório do IC",
-      speakers: [
-        {
-          name: "Aline Bianca Costa dos Santos",
-          role: "Assistente Social Especialista em Saúde mental",
-          image: AlineBiancaCostaDosSantos,
-        },
-        {
-          name: "Gisela Arsa da Cunha",
-          role: "Nutricionista Educadora Fisica e Doutora",
-          image: GiselaArsaDaCunha,
-        },
-        {
-          name: "Lorena Barbosa",
-          role: "Nutricionista e Doutoura em Saúde Coletiva",
-          image: LorenaBarbosaFonseca,
-        },
-      ],
-    },
+
     {
       time: "14h",
       title: "Empreender na enfermagem obstétrica: caminhos e oportunidades",
@@ -292,38 +385,14 @@ const schedule = {
         },
       ],
     },
-    {
-      time: "10:50h",
-      title: "Iniciativa Hospital Amigo da Criança",
-      description:
-        "A experiencia exitosa será ministrada por Vanusa Cristina, enfermeira graduada pela Universidade Federal de Mato Grosso (2001) e pós-graduada em enfermagem obstétrica pela mesma universidade (2004). Vanusa é enfermeira coordenadora do Hospital Beneficente Santa Helena, em Mato Grosso, e também atua como doula. No evento, ela abordará a 'Iniciativa Hospital Amigo da Criança', discutindo as melhores práticas e os benefícios desse programa voltado para a promoção do aleitamento materno e do acolhimento humanizado de mães e recém-nascidos. A apresentação será breve, com duração de 10 a 15 minutos, e começará às 10h50, no dia 6 de dezembro de 2024",
-      type: 4,
-      locale: "Auditório do IC",
-      speakers: [
-        {
-          name: "Vanusa Cristina",
-          role: "Enfermeira Coordenadora",
-          image: VanusaCristina,
-        },
-      ],
-    },
-    {
-      time: "10:50h",
-      title: "Conhecendo o Banco de Leite Humano",
-      description:
-        "Nely Alves de Castro Lima apresentará a palestra 'Conhecendo o Banco de Leite Humano', destacando a importância da doação de leite materno para a saúde infantil. Serão abordados os processos de coleta e armazenamento do leite. O objetivo é conscientizar sobre os benefícios e a necessidade dessa prática.",
-      type: 4,
-      locale: "Auditório do IC",
-      speakers: [
-        {
-          name: "Nely Alves",
-          role: "Enfermeira Especialista",
-          image: NelyAlvesDeCastroLima,
-        },
-      ],
-    },
   ],
   3: [
+    {
+      time: "07:30h",
+      title: "Início do credenciamento das palestras",
+      type: 5,
+      locale: "Saguão principal",
+    },
     {
       time: "08:15h",
       title:
@@ -356,6 +425,18 @@ const schedule = {
       ],
     },
     {
+      time: "09h",
+      title: "Apresentação de trabalhos",
+      type: 5,
+      locale: "Saguão principal",
+    },
+    {
+      time: "09h",
+      title: "Coquetel de encerramento (coffee break)",
+      type: 5,
+      locale: "Saguão principal",
+    },
+    {
       time: "10:05h",
       title:
         "Luto fetal: desafios psicoemocionais e a importância da rede de apoio",
@@ -379,12 +460,29 @@ const schedule = {
           role: "Psicóloga Especialista",
           image: DeiseVilani,
         },
+      ],
+    },
+    {
+      time: "11:05h",
+      title:
+        "Aleitamento humano e o contato pele a pele: inclusão e apoio às famílias LGBTQIA+ e suas necessidades específicas",
+      description:
+        "Palestra que abordará a importância do aleitamento e do contato pele a pele no desenvolvimento infantil, com ênfase na inclusão e no apoio adequado às famílias LGBTQIA+. A apresentação discutirá as especificidades e os desafios enfrentados por essas famílias no contexto do cuidado neonatal e do aleitamento, destacando a necessidade de práticas acolhedoras e informadas por parte dos profissionais de saúde",
+      type: 1,
+      locale: "Auditório do IC",
+      speakers: [
         {
           name: "Vitória Valéria Cristo Santos",
-          role: "Enfermeira/Residente em obstetrícia",
+          role: "Enfermeira Especialista",
           image: VitoriaValeriaCristoSantos,
         },
       ],
+    },
+    {
+      time: "12:05h",
+      title: "Sorteios e Encerramento",
+      type: 5,
+      locale: "Auditório do IC",
     },
   ],
 };
