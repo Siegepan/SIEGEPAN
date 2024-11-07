@@ -14,7 +14,8 @@ const SwiperComponent = ({ guests, swiperRef }) => {
         // Configuração para telas menores (celulares)
         0: {
           slidesPerView: 1,
-          spaceBetween: 20,
+          spaceBetween: 0,
+          centeredSlides: true,
         },
         602: {
           slidesPerView: 2,
