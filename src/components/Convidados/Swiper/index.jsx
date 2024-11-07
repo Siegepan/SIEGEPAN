@@ -8,10 +8,14 @@ const SwiperComponent = ({ guests, swiperRef }) => {
   return (
     <Swiper
       modules={[Autoplay]}
-      autoplay
-      slidesPerView={2}
+      autoplay={{ delay: 3000, disableOnInteraction: false }} // Configuração de autoplay com intervalo de 3 segundos
       loop={true}
       breakpoints={{
+        // Configuração para telas menores (celulares)
+        0: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
         602: {
           slidesPerView: 2,
           spaceBetween: 100,
@@ -33,7 +37,6 @@ const SwiperComponent = ({ guests, swiperRef }) => {
       onSlideChange={() => console.log("slide change")}
     >
       {/* Cada SwiperSlide renderiza um SwiperSlideComponent */}
-
       {guests.map((guest, index) => (
         <SwiperSlide
           key={index}
