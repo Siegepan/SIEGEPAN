@@ -51,7 +51,10 @@ function Parceiros() {
           Parceiros que tornam
           <br />
           tudo{" "}
-          <span className="text-white bg-purple-700 px-2 py-1 rounded">
+          <span
+            className="text-white bg-purple-700 px-2 py-1 rounded w-auto"
+            style={{ paddingTop: "0px", lineHeight: 1.5 }}
+          >
             possível
           </span>
         </h2>
