@@ -151,7 +151,7 @@ const schedule = {
     {
       time: "14:00h",
       title:
-        "Urgências e Emergências Obstétricas: Casos Complexos e Lições Aprendidas na Prática Clínica",
+        "Manejo de Hemorragia Pós-Parto: Do Diagnóstico à Intervenção e Cuidados Pós-crise",
       description:
         "Este minicurso é voltado para o aprofundamento no manejo da Hemorragia Pós-parto (HPP), abordando desde o diagnóstico precoce até as intervenções de emergência e o cuidado integral pós-crise.",
       type: 3,

@@ -63,14 +63,18 @@ const Submissions = () => {
             <div>
               <h2 className="text-xl font-semibold">Eixos Temáticos</h2>
               <p className="text-lg  mb-5">
-                Confira os eixos temáticos abaixo e acesse o modelo de resumo e
-                banner
+                Confira os eixos temáticos abaixo e acesse o modelo de Resumo
+                Simples e Template
               </p>
             </div>
-            <div>
+            <div className="flex flex-col gap-2">
               <ModelsButton
                 label="Ver Modelos"
                 href="https://drive.google.com/drive/folders/1Ytd98uvvKN0VJJH2szCWK_tGYamaA8_v"
+              />
+              <ModelsButton
+                label="Ver Template"
+                href="https://1drv.ms/p/c/76600d4800a3c9fa/EWDEU4xoVQxCgdEtgk2q8gEBlpTjSqaOGSG4d4V6QVfRuQ?e=h8i9hO"
               />
             </div>
           </div>
