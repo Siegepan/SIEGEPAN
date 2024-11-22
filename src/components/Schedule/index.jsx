@@ -5,7 +5,7 @@ import whitearrow from "/src/assets/images/prime_arrow-right-white.svg";
 import KarolineMeloImage from "/src/assets/images/palestrantes/Minicursos/Dia 05-12/Karoline Melo.jpeg";
 import AnaLuizaRabeloImage from "/src/assets/images/palestrantes/Minicursos/Dia 05-12/Ana Luiza Rabello da Silva.jpg";
 import MayreneDiasImage from "/src/assets/images/palestrantes/Minicursos/Dia 05-12/Mayrene Dias de Sousa .jpg";
-import YanaRossetoImage from "/src/assets/images/palestrantes/Minicursos/Dia 05-12/Yana Rossetto.jpg";
+import BrunaFlorizaMoreiraSantos from "/src/assets/images/palestrantes/Minicursos/Dia 05-12/BrunaFlorizaMoreiraSantos.jpg";
 import MarcialFrancisGaleraImage from "/src/assets/images/palestrantes/Minicursos/Dia 05-12/Marcial Francis Galera.png";
 import LuizAugustoImage from "/src/assets/images/palestrantes/Mesas redondas/Dia 05-12/Dr. Luiz Augusto Cavallini Menechino.jpg";
 import RodrigoCesarImage from "/src/assets/images/palestrantes/Mesas redondas/Dia 05-12/Rodrigo César.jpg";
@@ -173,9 +173,9 @@ const schedule = {
       locale: "FAEN - UFMT",
       speakers: [
         {
-          name: "Yana Rossetto",
-          role: "Sócia e Proprietária da Life Qualificações",
-          image: YanaRossetoImage,
+          name: "Bruna Floriza Moreira Santos",
+          role: "Enfermeira especialista em ginecologia, obstetrícia e amamentação",
+          image: BrunaFlorizaMoreiraSantos,
         },
       ],
     },
