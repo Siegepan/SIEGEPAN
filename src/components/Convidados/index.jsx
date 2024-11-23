@@ -3,7 +3,6 @@ import Swiper from "./Swiper";
 import KarolineMeloImage from "/src/assets/images/palestrantes/Minicursos/Dia 05-12/Karoline Melo.jpeg";
 import AnaLuizaRabeloImage from "/src/assets/images/palestrantes/Minicursos/Dia 05-12/Ana Luiza Rabello da Silva.jpg";
 import MayreneDiasImage from "/src/assets/images/palestrantes/Minicursos/Dia 05-12/Mayrene Dias de Sousa .jpg";
-import YanaRossetoImage from "/src/assets/images/palestrantes/Minicursos/Dia 05-12/Yana Rossetto.jpg";
 import MarcialFrancisGaleraImage from "/src/assets/images/palestrantes/Minicursos/Dia 05-12/Marcial Francis Galera.png";
 import LuizAugustoImage from "/src/assets/images/palestrantes/Mesas redondas/Dia 05-12/Dr. Luiz Augusto Cavallini Menechino.jpg";
 import RodrigoCesarImage from "/src/assets/images/palestrantes/Mesas redondas/Dia 05-12/Rodrigo César.jpg";
