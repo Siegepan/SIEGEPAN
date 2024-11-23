@@ -56,13 +56,6 @@ const guests = [
     title: "Manejo de HPP: Do Diagnóstico à Intervenção e Cuidados Pós-crise",
   },
   {
-    name: "Yana Rosseto",
-    role: "Enfermeira especializada em UTI neonatal",
-    image: YanaRossetoImage,
-    type: "Minicurso",
-    title: "Taping da gestação ao pós parto",
-  },
-  {
     name: "Marcial Francis Galera",
     role: "Médico Pediatra e Geneticista",
     image: MarcialFrancisGaleraImage,
