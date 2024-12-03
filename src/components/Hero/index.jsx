@@ -35,7 +35,7 @@ function Hero() {
             <div className="flex items-center md:ring-bg md:ring-[0.5px] rounded-full gap-2 px-3 py-1">
               <img src={point} alt="" className="w-6 h-6" />
               <p className="text-bg text-sm lg:text-[22px]">
-                Auditório IC UFMT
+                Hospital do Câncer
               </p>
             </div>
           </div>

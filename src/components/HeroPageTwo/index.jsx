@@ -37,12 +37,12 @@ const HeroPageTwo = () => {
         </p>
         <div className="mt-4 text-gray-600">
           <p>📅 De 5 a 7 de Dezembro</p>
-          <p>📍 Auditório do Instituto de Computação - IC UFMT</p>
+          <p>📍 Hospital do Câncer</p>
         </div>
         <a
           href="#cron"
           className="mt-6 bg-tPink text-white font-semibold py-3 px-5 rounded-lg shadow hover:bg-pink-600 flex flex-row items-center justify-center"
-          style={{backgroundColor:"#E43B64"}}
+          style={{ backgroundColor: "#E43B64" }}
         >
           <p className="text-xl font-semibold">Veja a programação Completa </p>
           <img src={arrowRight} className="rotate-90" alt="" />

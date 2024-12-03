@@ -38,19 +38,19 @@ const schedule = {
       time: "07:30h",
       title: "Início do credenciamento das palestras",
       type: 5, //1: Palestra, 2: Mesa-redonda, 3: Minicurso, 5: Experiencia existosa 5: Other
-      locale: "Saguão principal",
+      locale: "",
     },
     {
       time: "08:05h",
       title: "Abertura e Apresentação Cultural",
       type: 5, //1: Palestra, 2: Mesa-redonda, 3: Minicurso, 6: Experiencia existosa 5: Other
-      locale: "Auditório - IC",
+      locale: "Hospital do Câncer",
     },
     {
       time: "09:10h",
       title: "Intervalo para sorteios",
       type: 5, //1: Palestra, 2: Mesa-redonda, 3: Minicurso, 6: Experiencia existosa 5: Other
-      locale: "Auditório - IC",
+      locale: "Hospital do Câncer",
     },
     {
       time: "09:25h",
@@ -59,7 +59,7 @@ const schedule = {
       description:
         "Esta atividade discutirá os avanços e desafios nos cuidados à saúde reprodutiva, fundamentais para o cumprimento dos Objetivos de Desenvolvimento Sustentável (ODS), especialmente em saúde (ODS 3) e igualdade de gênero (ODS 5). Serão abordadas inovações em planejamento familiar, cuidados pré-natais e redução da mortalidade materna, além da importância de políticas públicas que garantam acesso universal e equitativo a esses serviços.",
       type: 2, //1: Palestra, 2: Mesa-redonda, 3: Minicurso
-      locale: "Auditório - IC",
+      locale: "Hospital do Câncer",
       speakers: [
         {
           name: "Luiz Menechino",
@@ -82,7 +82,7 @@ const schedule = {
       time: "10:30h",
       title: "Intervalo para o coffee break",
       type: 5,
-      locale: "Saguão principal",
+      locale: "Hospital do Câncer",
     },
     {
       time: "11:05h",
@@ -91,7 +91,7 @@ const schedule = {
       description:
         'A palestra "Boas práticas gestacionais: como o cuidado pré-natal e a abordagem familiar impactam na saúde das futuras gerações" apresenta a importância de um pré-natal bem estruturado e do apoio familiar para a saúde materna e do bebê. O conteúdo abrange práticas e cuidados essenciais durante a gestação, com ênfase no pré natal da mulher e a inclusão da família, no pré natal do parceiro e no pré natal de homens transexuais',
       type: 1,
-      locale: "Palestra",
+      locale: "Hospital do Câncer",
       speakers: [
         {
           name: "Jeane Anschau",
@@ -202,7 +202,7 @@ const schedule = {
       time: "07:30h",
       title: "Início do credenciamento das palestras",
       type: 5,
-      locale: "Saguão principal",
+      locale: "Hospital do Câncer",
     },
 
     {
@@ -212,7 +212,7 @@ const schedule = {
       description:
         "A palestra dinâmica 'O Papel da Equipe Multiprofissional no Pré-natal: Integração Sustentável e Equidade no Acesso à Saúde Materno e Infantil,' conduzida por Aline Bianca Costa dos Santos, Gisela Arsa da Cunha e Lorena Barbosa Fonseca, explora a importância da atuação integrada e colaborativa dos profissionais de saúde no pré-natal. Com uma abordagem voltada para a sustentabilidade e a equidade, a palestra destaca como a equipe multiprofissional pode melhorar o acesso à saúde materno-infantil, garantindo cuidado abrangente e respeitoso. São abordados temas como o acompanhamento contínuo da gestante, intervenções preventivas e estratégias para promover a inclusão e o apoio às mulheres em diferentes contextos sociais e econômicos. Este encontro visa inspirar práticas de saúde baseadas na cooperação e em modelos de cuidado mais humanizados e acessíveis",
       type: 2,
-      locale: "Auditório do IC",
+      locale: "Hospital do Câncer",
       speakers: [
         {
           name: "Aline Bianca Costa dos Santos",
@@ -236,13 +236,13 @@ const schedule = {
       time: "10:00h",
       title: "Intervalo para sorteios",
       type: 5,
-      locale: "Auditório do IC",
+      locale: "Hospital do Câncer",
     },
     {
       time: "10:15h",
       title: "Intervalo para o coffee break",
       type: 5,
-      locale: "Saguão principal",
+      locale: "Hospital do Câncer",
     },
 
     {
@@ -251,7 +251,7 @@ const schedule = {
       description:
         "Nely Alves de Castro Lima apresentará a palestra 'Conhecendo o Banco de Leite Humano', destacando a importância da doação de leite materno para a saúde infantil. Serão abordados os processos de coleta e armazenamento do leite. O objetivo é conscientizar sobre os benefícios e a necessidade dessa prática.",
       type: 6,
-      locale: "Saguão princial",
+      locale: "Hospital do Câncer",
       speakers: [
         {
           name: "Nely Alves",
@@ -267,7 +267,7 @@ const schedule = {
       description:
         "A experiencia exitosa será ministrada por Vanusa Cristina, enfermeira graduada pela Universidade Federal de Mato Grosso (2001) e pós-graduada em enfermagem obstétrica pela mesma universidade (2004). Vanusa é enfermeira coordenadora do Hospital Beneficente Santa Helena, em Mato Grosso, e também atua como doula. No evento, ela abordará a 'Iniciativa Hospital Amigo da Criança', discutindo as melhores práticas e os benefícios desse programa voltado para a promoção do aleitamento materno e do acolhimento humanizado de mães e recém-nascidos. A apresentação será breve, com duração de 10 a 15 minutos, e começará às 10h50, no dia 6 de dezembro de 2024",
       type: 6,
-      locale: "Saguão principal",
+      locale: "Hospital do Câncer",
       speakers: [
         {
           name: "Vanusa Cristina",
@@ -280,7 +280,7 @@ const schedule = {
       time: "10:50h",
       title: "Apresentação de trabalhos",
       type: 5,
-      locale: "Auditório do IC",
+      locale: "Hospital do Câncer",
     },
 
     {
@@ -290,7 +290,7 @@ const schedule = {
       description:
         "A palestra, ministrada por Dan Kaio Lemos, abordará o tema 'Direitos e Saúde Parental em Perspectiva: Desafios e Avanços na Reprodução e Parentalidade'. Dan Kaio Lemos é um homem transfeminista, antropólogo, escritor e doutorando na Universidade de Brasília (UNB) e na Western University, no Canadá. Ele é membro do Núcleo de Transparentalidades do IBRAT (Instituto Brasileiro de Transmasculinidades). A palestra promete explorar temas atuais sobre os direitos e a saúde parental, especialmente no contexto das pessoas trans, destacando os avanços e os desafios enfrentados em questões de reprodução e parentalidade",
       type: 1,
-      locale: "Auditório do IC",
+      locale: "Hospital do Câncer",
       speakers: [
         {
           name: "Dan Kaio Lemos",
@@ -391,7 +391,7 @@ const schedule = {
       time: "07:30h",
       title: "Início do credenciamento das palestras",
       type: 5,
-      locale: "Saguão principal",
+      locale: "Hospital do Câncer",
     },
     {
       time: "08:15h",
@@ -400,7 +400,7 @@ const schedule = {
       description:
         "Nesta palestra, será abordado a importância do planejamento e da autonomia das gestantes no processo de parto. Serão discutidos temas como a criação do plano de parto, que permite expressar desejos e preferências sobre o nascimento, e o empoderamento das mulheres para tomadas de decisões informadas. Além disso, a palestra destacará como o Sistema Único de Saúde (SUS) assegura um cuidado humanizado e integral, promovendo um parto respeitoso e alinhado aos direitos da gestante e do bebê.",
       type: 1,
-      locale: "Auditório do IC",
+      locale: "Hospital do Câncer",
       speakers: [
         {
           name: "Cristiane Ferreira",
@@ -415,7 +415,7 @@ const schedule = {
       description:
         "Dedicada à exibição de projetos e estudos que promovem a aplicação e os resultados positivos da Norma Brasileira de Comercialização de Alimentos para Lactentes e Crianças de Primeira Infância (NBCAL) no campo da enfermagem. Nesta sessão, profissionais de enfermagem compartilham práticas bem-sucedidas, desafios enfrentados e estratégias adotadas para apoiar a amamentação e garantir a saúde infantil conforme as diretrizes da NBCAL.",
       type: 1,
-      locale: "Auditório do IC",
+      locale: "Hospital do Câncer",
       speakers: [
         {
           name: "Tatiana Bering",
@@ -428,13 +428,13 @@ const schedule = {
       time: "09h",
       title: "Apresentação de trabalhos",
       type: 5,
-      locale: "Saguão principal",
+      locale: "Hospital do Câncer",
     },
     {
       time: "09h",
       title: "Coquetel de encerramento (coffee break)",
       type: 5,
-      locale: "Saguão principal",
+      locale: "Hospital do Câncer",
     },
     {
       time: "10:05h",
@@ -443,7 +443,7 @@ const schedule = {
       description:
         "Luto Fetal: Desafios Psicoemocionais e a Importância da Rede de Apoio será uma mesa-redonda que reunirá especialistas para discutir os desafios emocionais e psicológicos enfrentados por famílias que passaram pela perda gestacional ou neonatal.",
       type: 2,
-      locale: "Auditório do IC",
+      locale: "Hospital do Câncer",
       speakers: [
         {
           name: "Beluci Bianca",
@@ -469,7 +469,7 @@ const schedule = {
       description:
         "Palestra que abordará a importância do aleitamento e do contato pele a pele no desenvolvimento infantil, com ênfase na inclusão e no apoio adequado às famílias LGBTQIA+. A apresentação discutirá as especificidades e os desafios enfrentados por essas famílias no contexto do cuidado neonatal e do aleitamento, destacando a necessidade de práticas acolhedoras e informadas por parte dos profissionais de saúde",
       type: 1,
-      locale: "Auditório do IC",
+      locale: "Hospital do Câncer",
       speakers: [
         {
           name: "Vitória Valéria Cristo Santos",
@@ -482,7 +482,7 @@ const schedule = {
       time: "12:05h",
       title: "Sorteios e Encerramento",
       type: 5,
-      locale: "Auditório do IC",
+      locale: "Hospital do Câncer",
     },
   ],
 };

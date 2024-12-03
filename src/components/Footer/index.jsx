@@ -76,7 +76,7 @@ const Footer = () => {
           <ul className="space-y-2">
             <li className="flex items-center gap-3">
               <img src={localizacao_icon} alt="icone localização" />
-              <span>Auditório do Instituto de Computação - IC UFMT</span>
+              <span>Hospital do Câncer</span>
             </li>
             <li className="flex items-center gap-3">
               <img src={email} alt="icone email" />
